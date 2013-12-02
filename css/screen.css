@@ -1,5 +1,17 @@
 /* screen.css: Screen Styles */
 
+/* COLORS
+
+Light gray rgb(206, 206, 206) #b9bcbb
+Mid-gray rgb(179, 179, 179) #b7b8b8
+Dark gray rgb(141, 142, 142) #8d8e8e
+
+Yellow Green rgb(184, 196, 138) #b8c48a
+Sea Green rgb(138,196,170) #8ac4aa
+
+Pink Purple rgb(176, 138, 196) #b08ac4
+Light Blue rgb(138, 187,196) #8abbc4
+
 
 
 /***** FONTS *****/
@@ -10,21 +22,43 @@ h1, h2, h3, h4, hr, h4 a{
 }
 
 
-
-.lead h2 {
-   font-size: 1.2em;
-}
-
 #wrapper {
    width: 100%;
 }
 
+h2.title, p.title{
+   color: rgb(138,196,170);
+}
+
+
 
 #header {
-   background-color: rgba(164, 164, 164, 0.5);
+   background-color: rgb(164, 164, 164); /*Backup*/
+   background-color: rgba(179, 179, 179, 1);
 }
 
 .about {
-   background-color: green;
+   background-color: rgba(141, 142, 142, 1);
 }
+
+.block-main{
+   background-color: #fff;
+}
+
+h3.lead {
+   font-size: 1.3em;
+}
+
+.block-main p, h3 {
+   color: #b8c48a;
+}
+
+.block-misc {
+   background-color:  rgb(206, 206, 206);
+}
+
+#footer {
+   background-color: rgb(138,196,170);
+}
+
 
