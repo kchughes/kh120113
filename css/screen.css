@@ -1,0 +1,30 @@
+/* screen.css: Screen Styles */
+
+
+
+/***** FONTS *****/
+
+h1, h2, h3, h4, hr, h4 a{
+   font-family: "Josefin Sans", Arial, sans-serif;
+   font-weight: bold;
+}
+
+
+
+.lead h2 {
+   font-size: 1.2em;
+}
+
+#wrapper {
+   width: 100%;
+}
+
+
+#header {
+   background-color: rgba(164, 164, 164, 0.5);
+}
+
+.about {
+   background-color: green;
+}
+
