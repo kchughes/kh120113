@@ -176,3 +176,72 @@ ul, li {
 li {
    list-style-type: none;
 }   
+
+/***** Tools *****/
+li.tool {
+   padding: 2px 5px;
+   display: inline-block;
+   margin: 4px;
+   height: 1.5em;
+}
+li.adobe {
+   background-color: #b08ac4;   
+}
+
+li.office {
+   background-color: #b8c48a;
+}
+
+li.apple {
+   background-color: #8abbc4;
+}
+
+li.web {
+   background-color: #eae28a ;
+}
+li.other {
+   background-color: #8ac4aa;
+}
+
+li.ten {
+   width: 100%;
+   max-width: 400px;
+}
+
+li.nine {
+   width: 90%;
+   max-width: 360px;
+   min-width: 100px;
+
+}
+li.eight {
+   width: 80%;
+   max-width: 32px;
+   min-width: 100px;
+
+}
+li.seven {
+   width: 70%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.six {
+   width: 60%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.five {
+   width: 50%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.four {
+   width: 40%;
+   max-width: 200px;
+   min-width: 100px;
+}
+
+
