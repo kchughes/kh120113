@@ -37,6 +37,14 @@ h2.title, p.title{
    color: rgb(138,196,170);
 }
 
+h1.index-title {
+   color: #b08ac4;
+}
+
+h2.index-next {
+   color: #b08ac4;
+}
+
 
 div#wrapper {
    width: 100%;
@@ -89,6 +97,12 @@ div#footer {
    margin: 0;
    padding: 20px 2%;
 }
+
+.index {
+   background-color:  rgb(206, 206, 206);
+}
+
+
 
 /*****  Navigation  *****/
 
@@ -183,6 +197,8 @@ li.tool {
    display: inline-block;
    margin: 4px;
    height: 1.5em;
+   padding: 5px 20px;
+   vertical-align: middle;
 }
 li.adobe {
    background-color: #b08ac4;   
@@ -202,7 +218,7 @@ li.web {
 li.other {
    background-color: #8ac4aa;
 }
-
+/*
 li.ten {
    width: 100%;
    max-width: 400px;
@@ -243,5 +259,70 @@ li.four {
    max-width: 200px;
    min-width: 100px;
 }
+*/
+.design {
+   width: 100%;
+}
 
+p.type {
+   font-size: 2.4em;
+   color: #b08ac4;
+   float: left;
+   margin: 0px;
+   width: 10%;
+  /* position: absolute;
+   top: 31%;
+   left: 3%;
+   clear: both;
+   -webkit-transform: rotate(-90deg) /* Safari */ ; 
+   -moz-transform: rotate(-90deg) /* Firefox */ ;
+   -ms-transform: rotate(-90deg) /* IE */;
+   -o-transform: rotate(-90deg) /* Opera */;
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) /* Internet Explorer */;
+}
+**/
 
+li.ten {
+  opacity: 0.10;
+   -moz-opacity: 0.10;
+   color: green;
+   text-transform: uppercase;   
+}
+
+/**
+li.nine {
+   width: 90%;
+   max-width: 360px;
+   min-width: 100px;
+
+}
+li.eight {
+   width: 80%;
+   max-width: 32px;
+   min-width: 100px;
+
+}
+li.seven {
+   width: 70%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.six {
+   width: 60%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.five {
+   width: 50%;
+   max-width: 200px;
+   min-width: 100px;
+
+}
+li.four {
+   width: 40%;
+   max-width: 200px;
+   min-width: 100px;
+}
+***/
