@@ -14,12 +14,13 @@ Light Blue rgb(138, 187,196) #8abbc4
 
 **/
 
+
 body {
    margin:  0;
    width: 100%;
 }
 
-/***** FONTS *****/
+/***** FONTS, TEXT *****/
 
 h1, h2, h3, h4, hr, h4 a{
    font-family: "Amaranth", Arial, sans-serif;
@@ -43,6 +44,14 @@ h1.index-title {
 
 h2.index-next {
    color: #b08ac4;
+   text-align: center;
+   font-size: 2.5em;
+   margin: 0;
+}
+
+span.designer {
+   margin-top: 20px;
+   text-transform: uppercase;
 }
 
 
