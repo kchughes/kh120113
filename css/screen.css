@@ -22,10 +22,10 @@ body {
 
 /***** FONTS, TEXT *****/
 
-h1, h2, h3, h4, hr, h4 a{
+/** h1, h2, h3, h4, hr, h4 a{
    font-family: "Amaranth", Arial, sans-serif;
    font-weight: 700;
-}
+} **/
 
 p, a, li, label {
    font-family: Muli /** "Open Sans Condensed" **/, Arial, sans-serif;
@@ -33,7 +33,7 @@ p, a, li, label {
    font-size: .9em;
    line-height: 1.3em;
 }
-
+/*
 h2.title, p.title{
    color: rgb(138,196,170);
 }
@@ -65,7 +65,7 @@ div#wrapper {
    /**background-color: rgba(179, 179, 179, 1);
    clear: 
 }**/
-
+/**
 .about {
    background-color: rgba(141, 142, 142, 1);
 }
@@ -90,17 +90,19 @@ h3.lead {
    padding: 23px 20px;
    margin: 0px;
 }
-
+**/
+/**
 div#header {
    margin: 0;
-  /** padding: 10px 0px;**/
-   width: 100%;
+  /** padding: 10px 0px;**//**
+   width: 100%;**/
 }
+**/
 /**
 #header nav {
    padding: 20px 1%;
 } **/
-
+/**
 div#footer {
    background-color: rgb(138,196,170);
    margin: 0;
@@ -111,17 +113,17 @@ div#footer {
    background-color:  rgb(206, 206, 206);
 }
 
-
+**/
 
 /*****  Navigation  *****/
-
+/**
 nav#main {
    float: left;
    /**padding: 10px 1px 0px;**/
    width: 100%;
    /**clear: both;**/
 }
-
+/**
 nav#main ul li{
    display: inline;
 }
@@ -129,10 +131,10 @@ nav#main ul li{
 a {
    text-decoration: none;
 }
-
+/**
 nav#main li a {
    width: 21%; 
-   /*max-width: 100px;*/
+   /*max-width: 100px;*//**
    float: left;
    padding: 10px 15px;
    margin: 0px 1%;
@@ -167,7 +169,7 @@ nav {
    margin: 0px;
    padding: 0px;
 }
-
+**/
 /** nav#main ul {
    margin: 20px 3%;
 } **/
@@ -184,13 +186,14 @@ a.nav-work, a.nav-contact {
     -moz-box-shadow: inset 6px -7px 7px -9px #000; 
     box-shadow: inset 3px -6px 7px -8px #000; **/
 }
+/**
 nav#main a:hover, nav#main a:active {
   opacity: .7;
    -moz-opacity: .7;
 }
 
 **/
-
+/**
 ul, li {
    margin: 0px;
    padding: 0px;
@@ -199,8 +202,9 @@ ul, li {
 li {
    list-style-type: none;
 }   
-
+**/
 /***** Tools *****/
+/**
 li.tool {
    padding: 2px 5px;
    display: inline-block;
@@ -227,6 +231,7 @@ li.web {
 li.other {
    background-color: #8ac4aa;
 }
+**/
 /*
 li.ten {
    width: 100%;
@@ -269,10 +274,12 @@ li.four {
    min-width: 100px;
 }
 */
+/**
 .design {
    width: 100%;
 }
-
+**/
+/**
 p.type {
    font-size: 2.4em;
    color: #b08ac4;
@@ -286,18 +293,18 @@ p.type {
    -webkit-transform: rotate(-90deg) /* Safari */ ; 
    -moz-transform: rotate(-90deg) /* Firefox */ ;
    -ms-transform: rotate(-90deg) /* IE */;
-   -o-transform: rotate(-90deg) /* Opera */;
+   -o-transform: rotate(-90deg) /* Opera */; **/
    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) /* Internet Explorer */;
 }
 **/
-
+/**
 li.ten {
   opacity: 0.10;
    -moz-opacity: 0.10;
    color: green;
    text-transform: uppercase;   
 }
-
+**/
 /**
 li.nine {
    width: 90%;
