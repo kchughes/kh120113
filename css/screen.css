@@ -137,6 +137,16 @@ a.nav-work {
 
 #wrapper {
    clear: both;
+   padding-top: 15px;
+}
+
+.block-index {
+   padding: 20px 30px;
+}
+
+.block-log {
+   background-color: #8d8e8e;
+   padding: 20px 30px;
 }
 
 .block-title {
@@ -144,99 +154,73 @@ a.nav-work {
    padding: 20px 30px;
 }
 
-/*
-h2.title, p.title{
-   color: rgb(138,196,170);
+.block-title p {
+   color: #8ac4aa;
 }
 
-h1.index-title {
-   color: #b08ac4;
+.about h2, .work h2 {
+   color: #8ac4aa;
 }
 
-h2.index-next {
-   color: #b08ac4;
+.block-index h1 {
+   margin: 0 auto;
    text-align: center;
-   font-size: 2.5em;
-   margin: 0;
+   color:  #b08ac4;
 }
 
-span.designer {
-   margin-top: 20px;
+.designer {
    text-transform: uppercase;
 }
 
-
-div#wrapper {
-   width: 100%;
-   clear: both;
-}
-
-/** div#header {
-   background-color: rgb(164, 164, 164); /*Backup*/
-   /**background-color: rgba(179, 179, 179, 1);
-   clear: 
-}**/
-/**
-.about {
-   background-color: rgba(141, 142, 142, 1);
-}
-
-.block-main{
+.block-about, .block-projects {
    background-color: #fff;
+   padding: 10px 30px;
 }
 
-h3.lead {
-   font-size: 1.3em;
-}
-
-.block-main p, h3 {
+.block-about p {
    color: #94AB3A;
 }
 
 .block-misc {
-   background-color:  rgb(206, 206, 206);
+   padding: 10px 30px;
 }
 
-.block-main, .block-misc, .block-title {
-   padding: 23px 20px;
-   margin: 0px;
-}
-**/
-/**
-div#header {
-   margin: 0;
-  /** padding: 10px 0px;**//**
-   width: 100%;**/
-}
-**/
-/**
-#header nav {
-   padding: 20px 1%;
-} **/
-/**
+
+/***** FOOTER *****/
+
 div#footer {
    background-color: rgb(138,196,170);
    margin: 0;
    padding: 20px 2%;
 }
 
-.index {
-   background-color:  rgb(206, 206, 206);
+#touch, #quote, #site {
+   padding: 0px 20px;
 }
 
-**/
+#touch ul li{
+   display: inline;
+   float: left;
+   margin: 0px 20px;
+}
 
+#quote {
+   clear: both;
+   margin-top:  50px;
+}
+
+#quote p {
+  margin: 0px auto;
+}
+
+#site {
+   
 
 /**
-ul, li {
-   margin: 0px;
-   padding: 0px;
-}
+#header nav {
+   padding: 20px 1%;
+} **/
 
-li {
-   list-style-type: none;
-}   
-**/
 /***** Tools *****/
 /**
 li.tool {
