@@ -97,7 +97,7 @@ nav#main ul {
 
 nav#main ul li {
    display: inline;
-   float: left; 
+  /* float: left; */
    font-size: 1.1em;
 }
 
@@ -105,12 +105,12 @@ a.nav-home, a.nav-about,
 a.nav-work, a.nav-contact {
    width: 20%;
    max-width: 75px;     
-   float: left;
-   padding: 10px 14px;
-   margin: 0px 3%;
-   border-radius: 17px;
+  /** float: left;**/
+   padding: 10px 15px;
+   margin: 0px 1%;
+   border-bottom-right-radius: 12px;
    border-top-left-radius: 8px;
-   color: grey;
+   color: #787878;
    font-weight: 600;
    /**-webkit-box-shadow: inset 6px -7px 7px -9px #000; 
     -moz-box-shadow: inset 6px -7px 7px -9px #000; 
@@ -145,12 +145,17 @@ a.nav-work {
 }
 
 .block-log {
-   background-color: #8d8e8e;
+   background-color: #787878;
    padding: 20px 30px;
 }
 
+.block-log h3 {
+   color: #8ac4aa;
+   line-height: 1.6em;
+}
+
 .block-title {
-   background-color: #8d8e8e;
+   background-color: #787878;
    padding: 20px 30px;
 }
 
@@ -168,6 +173,8 @@ a.nav-work {
    color:  #b08ac4;
 }
 
+
+
 .designer {
    text-transform: uppercase;
 }
@@ -177,14 +184,42 @@ a.nav-work {
    padding: 10px 30px;
 }
 
-.block-about p {
+.block-about p, .block-about h3 {
    color: #94AB3A;
 }
 
 .block-misc {
    padding: 10px 30px;
+   background-color: #ebebeb;
+   color: #787878;
 }
 
+/***** SERVICES *****/
+.services {
+   width: 200px;
+   height: 200px;
+   border-radius: 150px;
+   text-align: center;
+   margin: 10px auto;
+   float: left;
+   line-height: 150px;
+   margin-left: 10%;
+}
+
+.print {
+   background-color: #eae28a;
+   border: 30px solid #787878;
+}
+
+.power {
+   background-color: #b08ac4;
+   border: 30px solid #eae28a;
+}
+
+.digital {
+   background-color: #787878;
+   border: 30px solid #8ac4aa;
+}
 
 /***** FOOTER *****/
 
@@ -192,6 +227,8 @@ div#footer {
    background-color: rgb(138,196,170);
    margin: 0;
    padding: 20px 2%;
+   color: #ebebeb;
+  /** border-left: 80px solid black; **/
 }
 
 #touch, #quote, #site {
@@ -215,14 +252,14 @@ div#footer {
 
 #site {
    
+}
 
-/**
-#header nav {
-   padding: 20px 1%;
-} **/
+#design {
+   clear: both;
+}
 
 /***** Tools *****/
-/**
+
 li.tool {
    padding: 2px 5px;
    display: inline-block;
