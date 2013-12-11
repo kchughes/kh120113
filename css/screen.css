@@ -78,36 +78,35 @@ a {
 /*****  Navigation  *****/
 
 
-nav#main {
+nav#main ul{
    width: 100%;
 }
 
-@media screen and (min-width: 400px) {
+/** @media screen and (min-width: 400px) {
 nav#main {
-  margin-left: 30%;  
+  margin-left: 20%;  
    clear: right;
    width: 60%;
    
 }
-}
+}**/
 
 nav#main ul {
-   margin: 20px auto;
+   margin-top: 20px;
 }
 
 nav#main ul li {
    display: inline;
-  /* float: left; */
    font-size: 1.1em;
 }
 
 a.nav-home, a.nav-about, 
 a.nav-work, a.nav-contact {
-   width: 20%;
+   width: 15%;
    max-width: 75px;     
-  /** float: left;**/
+   float: left;
    padding: 10px 15px;
-   margin: 0px 1%;
+   margin: 0px 1.5%;
    border-bottom-right-radius: 12px;
    border-top-left-radius: 8px;
    color: #787878;
@@ -123,6 +122,7 @@ nav#main li a:hover  {
 
 a.nav-home {
    background-color: #8ac4aa;
+   margin-left: 0px;
 }
 
 a.nav-about {
@@ -149,9 +149,11 @@ a.nav-work {
    padding: 20px 30px;
 }
 
-.block-log h3 {
+.block-log p {
    color: #8ac4aa;
    line-height: 1.6em;
+   font-weight: 600;
+   font-size: 1.3em;
 }
 
 .block-title {
@@ -161,6 +163,7 @@ a.nav-work {
 
 .block-title p {
    color: #8ac4aa;
+   line-height: 1.6em;
 }
 
 .about h2, .work h2 {
@@ -173,8 +176,6 @@ a.nav-work {
    color:  #b08ac4;
 }
 
-
-
 .designer {
    text-transform: uppercase;
 }
@@ -186,6 +187,7 @@ a.nav-work {
 
 .block-about p, .block-about h3 {
    color: #94AB3A;
+   line-height: 1.6em;
 }
 
 .block-misc {
@@ -212,13 +214,18 @@ a.nav-work {
 }
 
 .power {
-   background-color: #b08ac4;
-   border: 30px solid #eae28a;
+   background-color: #787878;
+   border: 30px solid #8ac4aa; 
 }
 
 .digital {
-   background-color: #787878;
-   border: 30px solid #8ac4aa;
+   background-color: #8ac4aa;
+   border: 30px solid #eae28a;
+}
+
+#design {
+   clear: both;
+   margin-top: 50px;
 }
 
 /***** FOOTER *****/
@@ -254,9 +261,11 @@ div#footer {
    
 }
 
-#design {
-   clear: both;
+img#touch {
+   width: 10%;
+   float: left;
 }
+
 
 /***** Tools *****/
 
@@ -286,7 +295,14 @@ li.web {
 li.other {
    background-color: #8ac4aa;
 }
-**/
+
+li.use {
+   display: inline;
+   padding: 4px 12px;
+   line-height: 2em;
+}
+
+
 /*
 li.ten {
    width: 100%;
