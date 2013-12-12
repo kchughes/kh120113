@@ -155,19 +155,25 @@ a.nav-work {
 
 .block-log {
    background-color: #787878;
-   padding: 20px 30px;
+   padding: 20px 10%;
+   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+.block-log {
+
+}
+}
 .block-log p {
    color: #8ac4aa;
    line-height: 1.6em;
    font-weight: 600;
-   font-size: 1.3em;
+   font-size: 1.1em;
+   text-align: right;
 }
 
 .block-title {
    background-color: #787878;
-   padding: 20px 30px;
 }
 
 .block-title p {
@@ -177,6 +183,11 @@ a.nav-work {
 
 .about h2, .work h2 {
    color: #8ac4aa;
+}
+
+.block-title, .block-about, .block-projects,
+.block-misc {
+   padding: 20px 10%;
 }
 
 .block-index h1 {
@@ -191,7 +202,6 @@ a.nav-work {
 
 .block-about, .block-projects {
    background-color: #fff;
-   padding: 10px 30px;
 }
 
 .block-about p, .block-about h3 {
@@ -200,21 +210,53 @@ a.nav-work {
 }
 
 .block-misc {
-   padding: 10px 30px;
    background-color: #ebebeb;
    color: #787878;
 }
+@media screen and (min-width: 768px) {
+.block-misc, .block-about, block-projects {
+   float:left;
+}
+}
 
+@media screen and (min-width: 768px) {
+.block-about {
+   width: 42%;
+   padding-right: 4%;
+}
+}
+@media screen and (min-width: 768px) {
+.block-misc {
+   width: 25%;
+   padding-left: 4%;
+   padding-right: 6%;
+}
+}
+
+@media screen and (min-width: 768px) {
+.block-projects {
+   width: 42%;
+   padding-right: 4%;
+}
+}
 /***** SERVICES *****/
-.services {
-   width: 200px;
-   height: 200px;
-   border-radius: 150px;
-   text-align: center;
-   margin: 10px auto;
+
+.block-services {
+   margin: 10px auto 15px auto;
    float: left;
+}
+
+.services {
+   width: 80%;
+   max-width: 250px;
+   height: 200px;
+   text-align: center;
    line-height: 150px;
-   margin-left: 10%;
+   margin: 10px 3%;
+}
+
+.print, .digital {
+      border-radius: 150px;
 }
 
 .print {
@@ -236,15 +278,22 @@ a.nav-work {
 
 #design {
    clear: both;
-   margin: 40px 6%;
+   margin: 50px 6%;
    
 }
 
 @media screen and (min-width: 768px) {
 div#design {
-   padding: 30px 6%;
+   margin: 40px 8%;
 }
 }
+
+@media screen and (min-width: 1024px) {
+div#design {
+   margin: 40px 10%;
+}
+}
+
 
 /***** FOOTER *****/
 
@@ -254,6 +303,7 @@ div#footer {
    margin: 0;
    padding: 20px 2%;
    color: #fff;
+   clear: both;
   /** border-left: 80px solid black; **/
 }
 
