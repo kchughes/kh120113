@@ -236,21 +236,75 @@ a.nav-work {
 
 #design {
    clear: both;
-   margin-top: 50px;
+   margin: 40px 6%;
+   
+}
+
+@media screen and (min-width: 768px) {
+div#design {
+   padding: 30px 6%;
+}
 }
 
 /***** FOOTER *****/
 
 div#footer {
    background-color: rgb(138,196,170);
+   overflow: hidden;
    margin: 0;
    padding: 20px 2%;
    color: #fff;
   /** border-left: 80px solid black; **/
 }
 
+@media screen and (min-width: 768px) {
+div#footer {
+   padding: 20px 6%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+div#footer {
+   padding: 20px 9%;
+}
+}
+
 #touch, #quote, #site {
    padding:15px 20px;
+   float: left;
+}
+
+#quote {
+   margin-top:  70px;
+}
+
+@media screen and (min-width: 768px) {
+#touch, #quote {
+   float: left;
+   width: 44%;
+   margin-top: 0px;
+}
+}
+@media screen and (min-width: 768px) {
+#site {
+   float: left;
+   width: 100%;
+   margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#touch, #quote, #site {
+   width: 32%;
+   margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#touch {
+   width: 22%;
+   margin-top: 0px;
+}
 }
 
 #touch h3, #quote h3, #site h3{
@@ -259,27 +313,13 @@ div#footer {
    margin-bottom: 5px;
 }
 
-#quote p, #site p{
+#quote p{
    font-size: 1em;
+   line-height: 1.6em;
 }
 #site p {
    font-size: .8em;
-}
-
-
-/*.bar{
-   background-color: #eae28a;
-}
-*/
-#touch ul li{
-   display: inline;
-   float: left;
-   margin: 0px 20px;
-}
-
-#quote {
-   clear: both;
-   margin-top:  50px;
+   line-height: 1.6em;
 }
 
 #touch, #quote {
@@ -289,9 +329,10 @@ div#footer {
   margin: 0px auto;
 }
 
-#site {
-   
+#site ul{
+   padding-left: 16px;
 }
+
 
 #touch img{
    float: left;
@@ -299,13 +340,30 @@ div#footer {
 
 img.email {
    width: 40%;
+   max-width: 190px;
 }
 
-img.linked {
+@media screen and (min-width: 1024px) {
+img.email {
    width: 60%;
 }
+}
+/*
+@media screen and (min-width: 768px) {
+img.email {
+   width: 60%;
+}
+}*/
+img.linked {
+   width: 60%;
+   max-width: 240px;
+}
 
-
+@media screen and (min-width: 1024px) {
+img.linked {
+   width: 80%;
+}
+}
 /***** Tools *****/
 
 ul.design {
