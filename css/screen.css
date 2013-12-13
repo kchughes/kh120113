@@ -214,8 +214,8 @@ a.nav-work {
    color: #787878;
 }
 @media screen and (min-width: 768px) {
-.block-misc, .block-about, block-projects {
-   float:left;
+.block-misc, .block-about, .block-projects {
+   float: left;
 }
 }
 
@@ -226,19 +226,21 @@ a.nav-work {
 }
 }
 @media screen and (min-width: 768px) {
-.block-misc {
+.block-misc, #block-design {
    width: 25%;
-   padding-left: 4%;
-   padding-right: 6%;
+   padding-left: 8%;
+   padding-right: 4%;
 }
 }
 
 @media screen and (min-width: 768px) {
 .block-projects {
-   width: 42%;
+   width: 50%;
    padding-right: 4%;
 }
 }
+
+
 /***** SERVICES *****/
 
 .block-services {
@@ -276,20 +278,21 @@ a.nav-work {
    border-top: 30px solid #b08ac4;
 }
 
-#design {
+#block-design {
    clear: both;
    margin: 50px 6%;
+   padding: inherit 3% 30px 6%;
    
 }
 
 @media screen and (min-width: 768px) {
-div#design {
+#block-design {
    margin: 40px 8%;
 }
 }
 
 @media screen and (min-width: 1024px) {
-div#design {
+#block-design {
    margin: 40px 10%;
 }
 }
