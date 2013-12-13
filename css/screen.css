@@ -139,9 +139,7 @@ a.nav-work {
    padding-top: 15px;
 }
 
-.block-index {
-   padding: 20px 30px;
-  }
+
 
 .graphic, .info {
  -webkit-transform: rotate(-90deg) /* Safari */ ; 
@@ -185,9 +183,13 @@ a.nav-work {
    color: #8ac4aa;
 }
 
-.block-title, .block-about, .block-projects,
-.block-misc {
+.block-title, .block-about, #block-projects,
+#block-misc {
    padding: 20px 10%;
+}
+
+.block-index {
+   padding: 20px 30px;
 }
 
 .block-index h1 {
@@ -200,7 +202,7 @@ a.nav-work {
    text-transform: uppercase;
 }
 
-.block-about, .block-projects {
+.block-about, #block-projects {
    background-color: #fff;
 }
 
@@ -209,56 +211,117 @@ a.nav-work {
    line-height: 1.6em;
 }
 
-.block-misc {
+#block-misc ul,  #block-misc p {
+   font-size: .8em;
+}
+
+#block-misc li, #block-misc p {
+   line-height: 1.6em;
+}
+
+#block-misc h4 {
+   font-size: 1em;
+   margin-bottom: 0;
+   padding-bottom: 1px;
+}
+
+#block-misc {
    background-color: #ebebeb;
    color: #787878;
 }
+
+#block-design {
+   float: left;
+}
+
 @media screen and (min-width: 768px) {
-.block-misc, .block-about, .block-projects {
+#block-misc, .block-about, 
+#block-projects, #block-design {
    float: left;
 }
 }
 
 @media screen and (min-width: 768px) {
 .block-about {
-   width: 42%;
+   width: 53%;
    padding-right: 4%;
 }
 }
 @media screen and (min-width: 768px) {
-.block-misc, #block-design {
-   width: 25%;
-   padding-left: 8%;
-   padding-right: 4%;
+#block-misc {
+   width: 26%;
+   padding-left: 3%;
+   padding-right: 2%;
+   margin: 0px;
+   padding-bottom: 0px;
 }
 }
 
+#block-design {
+   clear: both;
+   margin: 50px 6%;
+   padding: inherit 3% 30px 6%;   
+}
+
 @media screen and (min-width: 768px) {
-.block-projects {
+#block-design {
+   width: 26%;
+   padding-left: 3%;
+   padding-right: 2%;
+   margin: 0px;
+}
+}
+
+/*@media screen and (min-width: 768px) {
+#block-design {
+   margin: 40px 8%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#block-design {
+   margin: 40px 10%;
+}
+}*/
+
+@media screen and (min-width: 768px) {
+#block-projects {
    width: 50%;
    padding-right: 4%;
 }
 }
 
+#block-misc ul{
+   padding-left: 16px;
+}
+
+#block-design ul{
+   padding-left: 16px;
+}
 
 /***** SERVICES *****/
 
-.block-services {
-   margin: 10px auto 15px auto;
+#block-services {
+   margin: 10px 10% 15px 10%;
    float: left;
 }
 
-.services {
+#block-services {
    width: 80%;
    max-width: 250px;
-   height: 200px;
+  /* height: 200px;*/
    text-align: center;
    line-height: 150px;
-   margin: 10px 3%;
 }
 
-.print, .digital {
-      border-radius: 150px;
+@media screen and (min-width: 768px){
+#block-services {
+   width: 50%;
+}
+}
+
+.print, .digital, .power {
+   margin-bottom: 30px;
 }
 
 .print {
@@ -278,25 +341,9 @@ a.nav-work {
    border-top: 30px solid #b08ac4;
 }
 
-#block-design {
-   clear: both;
-   margin: 50px 6%;
-   padding: inherit 3% 30px 6%;
-   
-}
-
-@media screen and (min-width: 768px) {
-#block-design {
-   margin: 40px 8%;
-}
-}
-
-@media screen and (min-width: 1024px) {
-#block-design {
-   margin: 40px 10%;
-}
-}
-
+/*.print, .digital {
+      border-radius: 150px;
+} */
 
 /***** FOOTER *****/
 
