@@ -139,17 +139,63 @@ a.nav-work {
    padding-top: 15px;
 }
 
+.block-index {
+   padding: 20px 30px;
+}
 
+.block-index h1 {
+   margin: 0 auto;
+   color:  #b08ac4;
+   font-family: "Open Sans Condensed", Arial, sans-serif;
+   font-weight: 300;
+}
 
-.graphic, .info {
- -webkit-transform: rotate(-90deg) /* Safari */ ; 
+/*
+.graphic/* .info, .story, .designer*/ {
+  -webkit-transform: rotate(-45deg) /* Safari */ ; 
    -moz-transform: rotate(-90deg) /* Firefox */ ;
    -ms-transform: rotate(-90deg) /* IE */;
    -o-transform: rotate(-90deg) /* Opera */; **/
    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) /* Internet Explorer */;
+}
+/*
+.graphic, .info, .story {
+   font-weight: 300;
+}
+
+.info {
+   background-color: grey;
+}
+
+.story {
+   background-color: grey;
+}
+*/
+
+h1.graphic, h1.info, h1.story {
+   padding: 0px;
+   margin-bottom: 0px;
+   margin-top: -30px;
+   font-size: 3.2em;
 
 }
 
+h1.graphic {
+   text-align: left;
+}
+
+h1.info {
+   text-align: center;
+}
+
+h1.story {
+   text-align: right;
+}
+h1.designer {
+   text-transform: uppercase;
+   font-size: 4.5em;
+   font-weight: 700;
+}
 
 .block-log {
    background-color: #787878;
@@ -168,6 +214,8 @@ a.nav-work {
    font-weight: 600;
    font-size: 1.1em;
    text-align: right;
+   background-color: #575757;
+   padding: 10px;
 }
 
 .block-title {
@@ -188,19 +236,7 @@ a.nav-work {
    padding: 20px 10%;
 }
 
-.block-index {
-   padding: 20px 30px;
-}
 
-.block-index h1 {
-   margin: 0 auto;
-   text-align: center;
-   color:  #b08ac4;
-}
-
-.designer {
-   text-transform: uppercase;
-}
 
 .block-about, #block-projects {
    background-color: #fff;
@@ -230,10 +266,6 @@ a.nav-work {
    color: #787878;
 }
 
-#block-design {
-   float: left;
-}
-
 @media screen and (min-width: 768px) {
 #block-misc, .block-about, 
 #block-projects, #block-design {
@@ -258,15 +290,14 @@ a.nav-work {
 }
 
 #block-design {
-   clear: both;
    margin: 50px 6%;
    padding: inherit 3% 30px 6%;   
 }
 
 @media screen and (min-width: 768px) {
 #block-design {
-   width: 26%;
-   padding-left: 3%;
+   width: 24%;
+   padding-left: 1%;
    padding-right: 2%;
    margin: 0px;
 }
@@ -302,36 +333,83 @@ a.nav-work {
 /***** SERVICES *****/
 
 #block-services {
-   margin: 10px 10% 15px 10%;
-   float: left;
-}
-
-#block-services {
-   width: 80%;
-   max-width: 250px;
-  /* height: 200px;*/
+   margin: 10px 8% 15px 8%;
    text-align: center;
    line-height: 150px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 480px){
 #block-services {
-   width: 50%;
+   margin: 10px 20% 15px 20%;
 }
 }
 
-.print, .digital, .power {
-   margin-bottom: 30px;
+@media screen and (min-width: 640px){
+#block-services {
+   margin: 10px 25% 15px 25%;
 }
+}
+
+@media screen and (min-width: 768px){
+#block-services {
+   margin: 10px 10% 15px 10%;
+}
+}
+
+@media screen and (min-width: 900px){
+#block-services {
+   margin: 10px 2% 15px 19%;
+   /*width: 80%;*/
+}
+}
+
+@media screen and (min-width: 1024px){
+#block-services {
+   margin: 10px 2% 15px 4%;
+   /*width: 90%;*/
+}
+}
+
+@media screen and (min-width: 1200px){
+#block-services {
+   margin: 10px 2% 15px 9%;
+}
+}
+
+.services {
+   margin-bottom: 30px;
+   float: left;
+   width: 80%;
+   max-width: 250px;
+}
+
+@media screen and (min-width: 768px){
+.services {
+   width: 39%;
+}
+}
+
+@media screen and (min-width: 1024px){
+.services {
+   width: 23%;
+}
+}
+
+/**@media screen and (min-width: 768px){
+.power, .digital {
+   margin-left: 1%;
+}
+}**/
 
 .print {
    background-color: #eae28a;
-   border: 30px solid #787878;
+   border: 30px solid #575757;
 }
 
 .power {
-   background-color: #787878;
+   background-color: #575757;
    border: 30px solid #8ac4aa; 
+   border-radius: 150px;
 }
 
 .digital {
@@ -341,6 +419,29 @@ a.nav-work {
    border-top: 30px solid #b08ac4;
 }
 
+@media screen and (min-width: 768px){
+.digital {
+   margin: 10px 23% 40px; 
+}
+}
+
+@media screen and (min-width: 900px){
+.digital {
+   margin: 10px 24% 40px; 
+}
+}
+
+@media screen and (min-width: 900px){
+.power {
+   margin-left: 3%; 
+}
+}
+
+@media screen and (min-width: 1024px){
+.digital, .power, .print {
+   margin: 0px 2% 40px 2%;
+}
+}
 /*.print, .digital {
       border-radius: 150px;
 } */
