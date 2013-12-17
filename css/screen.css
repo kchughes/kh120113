@@ -13,6 +13,10 @@ Sea Green rgb(138,196,170) #8ac4aa
 Pink Purple rgb(176, 138, 196) #b08ac4
 Light Blue rgb(138, 187,196) #8abbc4
 
+
+
+Violet #721691
+Teal #16918B
 **/
 
 /*
@@ -146,18 +150,29 @@ a.nav-work {
 }
 
 #block-index {
-   padding: 60px 30px 25px;
+   padding: 60px 10px 0px 10px;
    margin: 0 auto;
-   width: 300px; 
+   min-width: 300px; 
+   width: 83%;
 }
-
+@media screen and (min-width: 1024px) {
+#block-index {
+   width: 93%;
+   margin-left: 7%;
+   padding-bottom: 0px;
+   overflow: auto;
+}
+}
 #block-index h1 {
-   float: left;
    colore:  #b08ac4;
    font-family: "Open Sans Condensed", Arial, sans-serif;
-  font-size: 3.2em;
-  letter-spacing:  .1em;
 }
+/*
+@media screen and (min-width: 480px) {
+#block-index h1 {
+   font-size: 3.9em;
+}
+}*/
 
 /*
 .graphic, .info, .story {
@@ -172,72 +187,143 @@ a.nav-work {
    background-colore: grey;
 }
 */
-h1.graphic, h1.info, h1.story, h1.present, h1.visual {
+h1.type{
    padding: 0px;
-   line-height: 40px;
+   line-height: 50px;
    margin-bottom: 9px;
    margin-top: -25px;
    font-weight: 300;
+   font-size: 3.2em;
+   letter-spacing:  .1em;
+   background-color: #721691;
+   color: #fff;
+   border-left: 45px solid #000;
+
 }
 
-
-span.info, span.story {
-   margin-left: 7px;
+/*.graphic, .info, .story, .visual {
+   letter-spacing:  .17em;
 }
 
-span.story {
-   margin-left: 12px;
+.graphic, .info {
+   letter-spacing:  .2em;
+}*/
+@media screen and (min-width: 480px) {
+h1.type {
+   line-height: 57px;
+   font-size: 4.1em;
 }
-*/
-h1.present {
-      letter-spacing:  .03em;
+}
+
+@media screen and (min-width: 640px) {
+h1.type {
+   line-height: 70px;
+   font-size: 5em;
+}
+}
+
+@media screen and (min-width: 768px) {
+h1.type {
+   line-height: 83px;
+   font-size: 5.5em;
+}
+}
+
+@media screen and (min-width: 1024px) {
+h1.type {
+   letter-spacing: 0.07em;
+   font-size: 4em;
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+br {
+  display: none;
+}
 }
 /*
-h1.graphic {
-   text-align: left;
-}
-
-h1.info {
-   text-align: center;
-}
-
-h1.story {
-   text-align: right;
+h1.present {
+      letter-spacing:  .03em;
 }
 */
 
 h1.designer {
    text-transform: uppercase;
-   font-size: 6.1em;
-   font-weight: 700;
-   letter-spacing:  .1em;
+   font-size: 3.7em;
+   letter-spacing:  .11em;
    margin-top: -20px;
+   background-color: #16918B;
 }
 
-.block-log {
-   background-colore: #787878;
-   padding: 20px 10%;
-   margin-bottom: 40px;
-   clear: both;
+@media screen and (min-width: 480px) {
+h1.designer {
+   font-size: 5.8em;
+}
+}
+
+@media screen and (min-width: 640px) {
+h1.designer {
+   font-size: 7.3em;
+}
 }
 
 @media screen and (min-width: 768px) {
-.block-log {
+h1.designer {
+   font-size: 9em;
+   padding-bottom; 0px;
+}
+}
 
+@media screen and (min-width: 1024px) {
+h1.designer {
+   font-size: 12.8em;
+   margin-top: -50px;
+   padding-top: 0px;
+}
+}
+
+.block-log {
+   background-color: #721691;
+   padding: 25px 10%;
+   margin-bottom: 25px;
+   clear: both;
+   border-top: 50px solid #000;
+   border-right: 25px solid #000;
+
+}
+
+@media screen and (min-width: 768px) {
+.block-log p{
+   margin-top: -200px;
 }
 }
 .block-log p {
+   margin: 0 auto;
    colore: #8ac4aa;
    line-height: 1.6em;
    font-weight: 500;
    font-size: 1.1em;
    text-align: left;
-   background-colore: #575757;
+   background-color: #16918B;
    padding: 10px;
 }
 
-.block-title {
-   background-colore: #787878;
+
+.about {
+   background-color: #16918B;
+   border-right: 200px solid #000;
+}
+
+.work {
+   background-color: #721691;
+   border-right: 200px solid #16918B;
+}
+
+.work p {
+   background-color: #000;
+   color: #fff;
+   padding: 20px;
 }
 
 .block-title h2 {
@@ -248,7 +334,7 @@ h1.designer {
 .block-title p {
    colore: #8ac4aa;
    line-height: 1.6em;
-   font-size: 1.2em;
+   font-size: 1.3em;
    font-family: "Open Sans Condensed", Arial, sans-serif;
    font-weight: 300;
 }
@@ -262,10 +348,13 @@ h1.designer {
    padding: 20px 10%;
 }
 
-
-
 .block-about, #block-projects {
-   background-colore: #fff;
+   background-color: #fff;
+   border: 30px solid #000;
+   border-radius: 300px;
+   padding: 70px;
+   margin-left: 3%;
+   margin-top: 20px;
 }
 
 .block-about p, .block-about h3 {
@@ -288,8 +377,8 @@ h1.designer {
 }
 
 #block-misc {
-   background-colore: #ebebeb;
-   colore: #787878;
+   background-color: #721691;
+   padding-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -301,7 +390,7 @@ h1.designer {
 
 @media screen and (min-width: 768px) {
 .block-about {
-   width: 53%;
+   width: 49%;
    padding-right: 4%;
 }
 }
@@ -311,7 +400,7 @@ h1.designer {
    padding-left: 3%;
    padding-right: 2%;
    margin: 0px;
-   padding-bottom: 0px;
+   padding-bottom: 30px;
 }
 }
 
@@ -362,6 +451,7 @@ h1.designer {
    margin: 0px 8% 15px 8%;
    text-align: center;
    line-height: 150px;
+   background-color: #000;
 }
 
 @media screen and (min-width: 480px){
@@ -428,19 +518,20 @@ h1.designer {
 }**/
 
 .print {
-   background-colore: #000;
-   border: 30px solid #000;
+   background-color: #000;
+   border: 30px solid #16918B;
+   
 }
 
 .power {
-   background-colore: #575757;
+   background-color: #721691;
    border: 30px solid #000; 
-   border-radius: 150px;
+   border-radius: 200px;
 }
 
 .digital {
-   background-colore: #8ac4aa;
-   border: 30px solid #000;
+   background-color: #16918B;
+   border: 30px solid #721691;
    border-left: 30px solid #000;
    border-top: 30px solid #000;
 }
@@ -448,6 +539,12 @@ h1.designer {
 @media screen and (min-width: 768px){
 .digital {
    margin: 10px 23% 40px; 
+}
+}
+
+@media screen and (min-width: 768px){
+.power {
+   margin-left: 3%; 
 }
 }
 
@@ -475,15 +572,18 @@ h1.designer {
 /***** FOOTER *****/
 
 div#footer {
-   background-colore: rgb(138,196,170);
+   background-color: #000;
    overflow: hidden;
-   margin: 0;
-   padding: 20px 2%;
+   margin: 0 auto;
+   min-width: 300px;
+   width: 90%;
+   border-right: 80px solid #721691;
+   /*padding: 20px 2%;*/
    colore: #fff;
    clear: both;
   /** border-left: 80px solid black; **/
 }
-
+/*
 @media screen and (min-width: 768px) {
 div#footer {
    padding: 20px 6%;
@@ -495,14 +595,22 @@ div#footer {
    padding: 20px 9%;
 }
 }
+*/
 
 #touch, #quote, #site {
-   padding:15px 20px;
+   padding:15px 15px;
    float: left;
 }
 
 #quote {
    margin-top:  10px;
+   background-color: #16918B;
+   border: 40px solid #fff;
+}
+
+#site {
+   background-color: #fff;
+   border: 60px solid #721691;
 }
 
 @media screen and (min-width: 768px) {
@@ -522,14 +630,14 @@ div#footer {
 
 @media screen and (min-width: 1024px) {
 #touch, #quote, #site {
-   width: 32%;
+   width: 25%;
    margin-top: 0px;
 }
 }
 
 @media screen and (min-width: 1024px) {
 #touch {
-   width: 22%;
+   width: 20%;
 }
 }
 
