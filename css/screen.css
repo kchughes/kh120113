@@ -285,11 +285,13 @@ h1.designer {
 
 .block-log {
    background-color: #721691;
-   padding: 25px 10%;
+   padding: 25px 8%;
    margin-bottom: 25px;
    clear: both;
    border-top: 50px solid #000;
    border-right: 25px solid #000;
+   width: 40%; 
+   float: left;
 
 }
 
@@ -309,6 +311,10 @@ h1.designer {
    padding: 10px;
 }
 
+.latest {
+   float: left;
+}
+
 
 .about {
    background-color: #16918B;
@@ -317,7 +323,7 @@ h1.designer {
 
 .work {
    background-color: #721691;
-   border-right: 200px solid #16918B;
+   border-right: 100px solid #16918B;
 }
 
 .work p {
@@ -343,6 +349,12 @@ h1.designer {
    colore: #8ac4aa;
 }
 
+.block-title {
+   width: 40%;
+   float: left;
+
+}
+
 .block-title, .block-about, #block-projects,
 #block-misc {
    padding: 20px 10%;
@@ -350,8 +362,8 @@ h1.designer {
 
 .block-about, #block-projects {
    background-color: #fff;
-   border: 30px solid #000;
-   border-radius: 300px;
+   /**border: 30px solid #000;
+   border-radius: 300px;**/
    padding: 70px;
    margin-left: 3%;
    margin-top: 20px;
@@ -416,6 +428,21 @@ h1.designer {
    padding-right: 2%;
    margin: 0px;
 }
+}
+
+.quote {
+   float: left;
+   width: 15%;
+   padding: 2%;
+   /**border: 20px solid #000;
+   border-radius: 300px;
+   background-color: #16918B;**/
+}
+
+.quote p {
+   font-size: 2em;
+   color: #16918B;
+   font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
 }
 
 /*@media screen and (min-width: 768px) {
