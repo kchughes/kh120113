@@ -318,7 +318,7 @@ h1.designer {
 
 .about {
    background-color: #16918B;
-   border-right: 200px solid #000;
+   /**border-right: 100px solid #000;**/
 }
 
 .work {
@@ -350,7 +350,7 @@ h1.designer {
 }
 
 .block-title {
-   width: 40%;
+   width: 43%;
    float: left;
 
 }
@@ -432,16 +432,17 @@ h1.designer {
 
 .quote {
    float: left;
-   width: 15%;
+   width: 27%;
    padding: 2%;
    /**border: 20px solid #000;
-   border-radius: 300px;
-   background-color: #16918B;**/
+   border-radius: 300px;**/
+   background-color: #000;
 }
 
 .quote p {
    font-size: 2em;
-   color: #16918B;
+  /* color: #16918B;*/
+   color: #fff;
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
 }
 
