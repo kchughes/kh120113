@@ -69,14 +69,16 @@ a {
    margin: 0px auto;
 }
 #logo img {
-   display: block;
+   display: inline;
    margin: 0 auto;
 }
 
 @media screen and (min-width: 640px) {
 #logo img {
    float: left;
-   margin: 5%;
+   margin: .5% 8%;
+   width: 20%;
+
 }
 }
 
@@ -87,7 +89,7 @@ a {
 nav#main ul{
    width: 100%;
    min-width: 315px;
-   max-width: 500px;
+   max-width: 600px;
    margin: 0 auto;
 }
 
