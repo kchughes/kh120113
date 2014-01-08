@@ -1,19 +1,7 @@
 /* screen.css: Screen Styles */
+/* kh120113 */
 
-/* coloreS
-
-Light gray rgb(206, 206, 206) #b9bcbb
-Mid-gray rgb(179, 179, 179) #b7b8b8
-Dark gray rgb(141, 142, 142) #8d8e8e
-Very dark grey #787878
-
-Yellow Green rgb(184, 196, 138) #b8c48a
-Sea Green rgb(138,196,170) #8ac4aa
-
-Pink Purple rgb(176, 138, 196) #b08ac4
-Light Blue rgb(138, 187,196) #8abbc4
-
-
+/* colors
 
 Violet #721691
 Teal #16918B
@@ -59,7 +47,7 @@ ul {
    list-style: none;
 }
 
-a {
+}a {
    text-decoration: none;
 }
 
@@ -68,6 +56,14 @@ a {
 #header {
    margin: 0px auto;
 }
+
+#textlogo {
+   font-family:  "Josefin Sans", Arial, sans-serif;
+   font-weight: 700;
+   margin: 2% 10%;
+   color: #000;
+}
+
 #logo img {
    display: inline;
    margin: 0 auto;
