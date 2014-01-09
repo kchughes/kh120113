@@ -141,7 +141,6 @@ nav#main li a:hover, nav#main li a:active  {
 }
 }
 #block-index h1 {
-   colore:  #b08ac4;
    font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 /*
@@ -327,26 +326,30 @@ h1.title {
 .quote {
    float: left;
    width: 160px;
-   height: 160px;
-   background-color: #000;
+   height: 150px;
    padding: 2%;
    border-radius: 200px;
-   margin-left: 8%;
+   margin-left: 6%;
+   border: 23px solid #721691;
 }
 
 .quote p {
    font-size: 1.3em;
+   text-align: center;
    line-height: 1.4em;
-   color: #fff;
+   color: #000;
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
    padding: 8%;
    margin-top: 10px;
   /* margin: 0 auto;
    margin-right: 13%;*/
+
 }
 
 .about {
    background-color: #16918B;
+   border-top: 30px solid #000;
+   color: #fff;
 }
 
 .work {
@@ -587,49 +590,28 @@ h1.title {
 /***** FOOTER *****/
 
 div#footer {
-   background-color: #000;
+   /*background-color: #000;*/
    overflow: hidden;
-   margin: 0 auto;
    min-width: 300px;
-   width: 90%;
-   border-right: 80px solid #721691;
+   width: 100%;
    /*padding: 20px 2%;*/
-   colore: #fff;
    clear: both;
-  /** border-left: 80px solid black; **/
-}
-/*
-@media screen and (min-width: 768px) {
-div#footer {
-   padding: 20px 6%;
-}
+   padding-bottom: 20px;
+   border-left: 100px solid #16918B; 
+   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1024px) {
-div#footer {
-   padding: 20px 9%;
-}
-}
-*/
-
-#touch, #quote, #site {
+#contact, #quote, #site {
    padding:15px 15px;
    float: left;
 }
 
-#quote {
-   margin-top:  10px;
-   background-color: #16918B;
-   border: 40px solid #fff;
-}
-
 #site {
    background-color: #fff;
-   border: 60px solid #721691;
 }
-
+/*
 @media screen and (min-width: 768px) {
-#touch, #quote {
+#contact, #quote {
    float: left;
    width: 44%;
    margin-top: 0px;
@@ -638,53 +620,47 @@ div#footer {
 @media screen and (min-width: 768px) {
 #site {
    float: left;
-   width: 100%;
+   width: 80%;
+   margin-top: 0px;
+}
+}*/
+
+@media screen and (min-width: 1024px) {
+#site {
+   width: 50%;
    margin-top: 0px;
 }
 }
 
 @media screen and (min-width: 1024px) {
-#touch, #quote, #site {
+#contact {
    width: 25%;
-   margin-top: 0px;
 }
 }
 
-@media screen and (min-width: 1024px) {
-#touch {
-   width: 20%;
-}
-}
-
-#touch h3, #quote h3, #site h3{
-   colore: #000;
+#contact h3,  #site h3{
    font-size: 1.4em;
    margin-bottom: 5px;
    font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 
-#quote p{
-   font-size: 1em;
-   line-height: 1.6em;
+#contact h3 {
+   color: white;
 }
-#site p {
+
+#site p, {
    font-size: .8em;
    line-height: 1.6em;
+   margin: 5px auto;
 }
 
-#touch, #quote {
-}
-
-#quote p, #site p {
-  margin: 0px auto;
-}
-
-#site ul{
+#site li{
    padding-left: 16px;
+   line-height: 1.7em;
+   font-size: .7em;
 }
 
-
-#touch img{
+#contact img{
    float: left;
 }
 
@@ -695,7 +671,7 @@ img.email {
 
 @media screen and (min-width: 1024px) {
 img.email {
-   width: 60%;
+   width: 20%;
 }
 }
 /*
@@ -711,7 +687,7 @@ img.linked {
 
 @media screen and (min-width: 1024px) {
 img.linked {
-   width: 80%;
+   width: 30%;
 }
 }
 /***** Tools *****/
