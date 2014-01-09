@@ -325,10 +325,10 @@ h1.title {
 
 .quote {
    float: left;
-   width: 160px;
-   height: 150px;
+   width: 150px;
+   height: 140px;
    padding: 2%;
-   border-radius: 200px;
+   /*border-radius: 200px;*/
    margin-left: 6%;
    border: 23px solid #721691;
 }
@@ -337,10 +337,11 @@ h1.title {
    font-size: 1.3em;
    text-align: center;
    line-height: 1.4em;
-   color: #000;
+   color: #fff;
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
    padding: 8%;
-   margin-top: 10px;
+   margin-top: 6px;
+   background-color: #000;
   /* margin: 0 auto;
    margin-right: 13%;*/
 
@@ -375,12 +376,20 @@ h1.title {
 
 #block-misc {
    padding-top: 50px;
-   border-left: 30px solid #721691;
 }
 
 #block-misc ul {
    font-size: .85em;
    margin-bottom: .8em;
+}
+
+.box {
+   border: 15px solid #000;
+   margin-bottom: 15px;
+
+}
+
+.misc1 {
 }
 
 #block-misc li, #block-misc p {
@@ -590,24 +599,36 @@ h1.title {
 /***** FOOTER *****/
 
 div#footer {
-   /*background-color: #000;*/
    overflow: hidden;
    min-width: 300px;
    width: 100%;
-   /*padding: 20px 2%;*/
-   clear: both;
-   padding-bottom: 20px;
-   border-left: 100px solid #16918B; 
+    clear: both;
+   padding-bottom: 0px;
    margin-bottom: 10px;
+   border-left: 100px solid #16918B; 
+
 }
 
-#contact, #quote, #site {
-   padding:15px 15px;
+hr {
+   margin: 20px 0px;
+   border-color: #721691;
+}
+
+#contact,  #site {
+   padding: 25px 25px;
    float: left;
+
+}
+#contact {
+   border-right: 30px solid #fff;
+   background-color: #fff;
+
 }
 
 #site {
-   background-color: #fff;
+   background-color: #000;
+   color: #fff;
+   height: 100%;
 }
 /*
 @media screen and (min-width: 768px) {
@@ -638,18 +659,28 @@ div#footer {
 }
 }
 
-#contact h3,  #site h3{
+/**#contact h3{
+   font-size: 1.4em;
+   font-weight: 300;
+
+}**/
+#contact h3,  #site h3, #repeat h3{
    font-size: 1.4em;
    margin-bottom: 5px;
-   font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 
-#contact h3 {
-   color: white;
+#contact h3, #contact h4 {
+   color: #000;
 }
-
-#site p, {
-   font-size: .8em;
+#contact h4 {
+   font-weight: 300;
+   font-size: 1.1em;
+}
+#contact a {
+   color: #000;
+}
+#site p {
+   font-size: .9em;
    line-height: 1.6em;
    margin: 5px auto;
 }
