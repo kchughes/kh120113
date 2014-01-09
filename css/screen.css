@@ -349,19 +349,19 @@ h1.title {
 
 .about {
    background-color: #16918B;
-   border-top: 30px solid #000;
    color: #fff;
+   border-top: 30px solid #000;
+
 }
 
 .work {
    background-color: #721691;
-   border-right: 100px solid #16918B;
+   border-top: 30px solid #000;
+   color: #fff;
 }
 
-.work p {
-   background-color: #000;
-   color: #fff;
-   padding: 20px;
+.work+.quote {
+   border-color: #16918B;
 }
 
 .block-about, #block-projects {
@@ -374,7 +374,7 @@ h1.title {
    margin-bottom: .8em;
 }
 
-#block-misc {
+#block-misc, #block-design {
    padding-top: 50px;
 }
 
@@ -735,22 +735,22 @@ li.tool {
    vertical-align: middle;
 }
 li.adobe {
-   background-colore: #b08ac4;   
+   background-color: #b08ac4;   
 }
 
 li.office {
-   background-colore: #b8c48a;
+   background-color: #b8c48a;
 }
 
 li.apple {
-   background-colore: #8abbc4;
+   background-color: #8abbc4;
 }
 
 li.web {
-   background-colore: #eae28a ;
+   background-color: #eae28a ;
 }
 li.other {
-   background-colore: #8ac4aa;
+   background-color: #8ac4aa;
 }
 
 li.use {
