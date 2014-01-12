@@ -121,6 +121,7 @@ nav#main li a:hover, nav#main li a:active  {
 #wrapper {
    clear: both;
    padding-top: 80px;
+   margin-bottom: 200px;
 
 }
 
@@ -330,19 +331,20 @@ h1.title {
    padding: 2%;
    /*border-radius: 200px;*/
    margin-left: 6%;
-   border: 23px solid #721691;
+   border: 23px solid #000;
 }
 
 .quote p {
    font-size: 1.3em;
+   font-weight: 600;
    text-align: center;
    line-height: 1.4em;
-   color: #fff;
+   color: #721691;
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
-   padding: 8%;
-   margin-top: 6px;
-   background-color: #000;
-  /* margin: 0 auto;
+   padding: 4%;
+   /* margin-top: 6px;
+  background-color: #000;
+   margin: 0 auto;
    margin-right: 13%;*/
 
 }
@@ -384,9 +386,8 @@ h1.title {
 }
 
 .box {
-   border: 15px solid #000;
-   margin-bottom: 15px;
-
+   border-bottom: 15px solid #721691;
+   margin-bottom: 20px;
 }
 
 .misc1 {
@@ -397,7 +398,7 @@ h1.title {
 }
 
 #block-misc h3 {
-   margin-bottom: .4em;;
+   margin-bottom: .7em;;
 }
 #block-misc h4 {
    font-size: 1em;
@@ -470,6 +471,21 @@ h1.title {
 
 #block-design ul{
    padding-left: 16px;
+}
+
+.circle {
+   background-color: #000;
+   color: #fff;
+   border-radius: 100px;
+   width: 100px;
+   height: 100px;
+   float: left;
+   margin: 0px 25px;
+}
+
+.circle p {
+   text-align: center;
+   padding: 31px;
 }
 
 /***** SERVICES *****/
@@ -596,17 +612,19 @@ h1.title {
       border-radius: 150px;
 } */
 
+
+
 /***** FOOTER *****/
 
 div#footer {
    overflow: hidden;
    min-width: 300px;
    width: 100%;
-    clear: both;
+   clear: both;
    padding-bottom: 0px;
-   margin-bottom: 10px;
-   border-left: 100px solid #16918B; 
-
+   margin: 0px;
+   padding-top: 100px;
+   border-right: 100px solid #16918B;
 }
 
 hr {
@@ -617,19 +635,17 @@ hr {
 #contact,  #site {
    padding: 25px 25px;
    float: left;
-
-}
-#contact {
-   border-right: 30px solid #fff;
-   background-color: #fff;
-
-}
-
-#site {
-   background-color: #000;
-   color: #fff;
    height: 100%;
 }
+
+#contact {
+   background-color: #fff;
+   border-left: 60px solid #721691;
+   width: 22%;
+
+}
+
+
 /*
 @media screen and (min-width: 768px) {
 #contact, #quote {
@@ -644,7 +660,7 @@ hr {
    width: 80%;
    margin-top: 0px;
 }
-}*/
+}
 
 @media screen and (min-width: 1024px) {
 #site {
@@ -658,7 +674,7 @@ hr {
    width: 25%;
 }
 }
-
+*/
 /**#contact h3{
    font-size: 1.4em;
    font-weight: 300;
@@ -667,10 +683,13 @@ hr {
 #contact h3,  #site h3, #repeat h3{
    font-size: 1.4em;
    margin-bottom: 5px;
+
 }
 
 #contact h3, #contact h4 {
    color: #000;
+   margin-left: 7%;
+
 }
 #contact h4 {
    font-weight: 300;
@@ -678,6 +697,15 @@ hr {
 }
 #contact a {
    color: #000;
+}
+
+#site {
+   background-color: #000;
+   color: #fff;
+   border-right: 60px solid #16918B; 
+   width: 56%;
+
+
 }
 #site p {
    font-size: .9em;
@@ -691,6 +719,8 @@ hr {
    font-size: .7em;
 }
 
+
+/*
 #contact img{
    float: left;
 }
@@ -705,12 +735,12 @@ img.email {
    width: 20%;
 }
 }
-/*
+
 @media screen and (min-width: 768px) {
 img.email {
    width: 60%;
 }
-}*/
+}
 img.linked {
    width: 60%;
    max-width: 240px;
@@ -720,6 +750,13 @@ img.linked {
 img.linked {
    width: 30%;
 }
+}
+*/
+.copy {
+   float: right;
+   margin-right: 10%;
+   color: #fff;
+   font-weight: 300;
 }
 /***** Tools *****/
 
