@@ -260,15 +260,22 @@ h1.designer {
 }
 }
 
+#next {
+   margin-top: 125px;
+
+}
+
 .block-log {
-   background-color: #721691;
+  /* background-color: #721691;*/
    padding: 25px 8%;
    margin-bottom: 25px;
+   margin-right: 3%;
    clear: both;
-   border-top: 50px solid #000;
-   border-right: 25px solid #000;
-   width: 40%; 
+   border-bottom: 30px solid #000;
+  /* border-right: 25px solid #000;*/
+   width: 45%; 
    float: left;
+
 
 }
 
@@ -283,8 +290,8 @@ h1.designer {
    font-weight: 500;
    font-size: 1.1em;
    text-align: left;
-   background-color: #16918B;
    padding: 10px;
+   color: #721691;
 }
 
 .latest {
@@ -362,8 +369,8 @@ h1.title {
    color: #fff;
 }
 
-.work+.quote {
-   border-color: #16918B;
+.work+.quote p{
+   color: #16918B;
 }
 
 .block-about, #block-projects {
@@ -772,11 +779,11 @@ li.tool {
    vertical-align: middle;
 }
 li.adobe {
-   background-color: #b08ac4;   
+   background-color: #16918B;   
 }
 
 li.office {
-   background-color: #b8c48a;
+   background-color: #721691;
 }
 
 li.apple {
@@ -784,10 +791,11 @@ li.apple {
 }
 
 li.web {
-   background-color: #eae28a ;
+   background-color: #16918B ;
 }
 li.other {
-   background-color: #8ac4aa;
+   background-color: #000;
+   color: #fff;
 }
 
 li.use {
