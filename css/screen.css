@@ -561,64 +561,6 @@ h1.title {
 }
 }
 
-/**@media screen and (min-width: 768px){
-.power, .digital {
-   margin-left: 1%;
-}
-}**/
-
-.print {
-   background-color: #000;
-   border: 30px solid #16918B;
-   
-}
-
-.power {
-   background-color: #721691;
-   border: 30px solid #000; 
-   border-radius: 200px;
-}
-
-.digital {
-   background-color: #16918B;
-   border: 30px solid #721691;
-   border-left: 30px solid #000;
-   border-top: 30px solid #000;
-}
-
-@media screen and (min-width: 768px){
-.digital {
-   margin: 10px 23% 40px; 
-}
-}
-
-@media screen and (min-width: 768px){
-.power {
-   margin-left: 3%; 
-}
-}
-
-@media screen and (min-width: 900px){
-.digital {
-   margin: 10px 24% 40px; 
-}
-}
-
-@media screen and (min-width: 900px){
-.power {
-   margin-left: 3%; 
-}
-}
-
-@media screen and (min-width: 1024px){
-.digital, .power, .print {
-   margin: 0px 2% 40px 2%;
-}
-}
-/*.print, .digital {
-      border-radius: 150px;
-} */
-
 
 
 /***** FOOTER *****/
@@ -631,7 +573,6 @@ div#footer {
    padding-bottom: 0px;
    margin: 0px;
    padding-top: 100px;
-   border-right: 100px solid #16918B;
 }
 
 hr {
