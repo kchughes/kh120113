@@ -14,8 +14,7 @@
  	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
 
-  <!-- Attach portBox CSS -->
-      <link href="css/portBox.css" rel="stylesheet" />
+
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
    
@@ -25,6 +24,8 @@
 
       <!-- Attach portBox script -->
       <script src="js/jquery.portBox.slimscroll.min.js"></script>
+  <!-- Attach portBox CSS -->
+      <link href="css/portBox.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -60,16 +61,15 @@
   <div id="block-projects">
       <h2 class="lead">Projects</h2>   
 <!-- portBox Handler -->
-<a href="#" data-display="myProject">My Project</a>
+<a href="#" data-display="myProject" data-animation="fade" data-animationspeed="200" data-closeBGclick="true">here</a>
 
 <!-- portBox Content -->
 <div id="myProject" class="portBox">
     <div class="project">
         
-    	<div class="project-pics">
-            
-            <img src="img/my-image.jpg" alt=""/>
-            
+    	<div class="project-pics"> 
+            <img src="media/img/portfolio/2011holidaycard.jpg" alt="2011 Holiday Card"/>
+         
         </div>
         
         <div class="project-info">
@@ -123,6 +123,8 @@
          <li class="tool other seven">Constant Contact</li>
          <li class="tool other four">GitHub</li>
          <li class="tool other nine"><a href="http://thesaurus.com/">Thesaurus.com</a></li>
+         <li class="tool other nine">Confident Smile</li>
+
       </ul>
 
 <h3>...and how I use them</h3> <!-- make these two sections columns? how would that work in mobile?-->
