@@ -17,6 +17,14 @@ body p, body h1, body h2, body h3 {
    max-width: 1100px;
 }
 **/
+
+/*****COMING SOON PAGE*******/
+#coming {
+   margin: 200px auto;
+   text-align: center;
+   line-height: 5em;
+}
+
 /***** FONTS, TEXT *****/
 
 h1, h2, h3, h4, hr {
@@ -573,7 +581,7 @@ div#footer {
    padding-bottom: 0px;
    margin: 0px;
    padding-top: 100px;
-}
+   }
 
 hr {
    margin: 20px 0px;
