@@ -13,15 +13,22 @@
 	<link rel="stylesheet" type="text/css" media="screen, print" href="css/reset.css" />
  	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
-
+      <link href="css/portBox.css" rel="stylesheet" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+  <!--Attach jQuery library and jQuery UI -->
+      <script src="js/jquery-1.10.2.min.js"></script>
+      <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+
+      <!-- Attach portBox script -->
+      <script src="js/portBox.slimscroll.min.js"></script>
 </head>
 
 <body>
 
 <div id ="header">
 
-<a href="index.html"><h1 id="textlogo">khalilahughes</h1></a>
+<a href="index1.html"><h1 id="textlogo">khalilahughes</h1></a>
 
    <nav id ="main">
       <ul>
@@ -44,8 +51,18 @@
    <p>I love telling stories. I love creating design. I enjoy every opportunity to merge my two loves into elegant, effective, and impactful experiences for print and digital media.   </p>
   <!-- <p>design aesthetics- mixing colors in interesting ways, and clean + unusual textures and gradients, </p> -->
 </div>
+
 <div class="latest">
    <h3>Latest Project</h3>
+<!-- portBox Handler -->
+<a href="#" data-display="myBox">My Box of Stuff</a>
+
+<!-- portBox Content -->
+<div id="myBox" class="portBox">
+
+<!-- Your content here -->
+
+</div>
 </div>
 </div>
 
