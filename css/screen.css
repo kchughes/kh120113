@@ -304,8 +304,18 @@ h1.designer {
 
 .latest {
    float: left;
+   width: 30%;
 }
 
+.container {
+   width: 200px;
+   height: 200px;
+   border-radius: 200px;
+   background-color: #721691;
+   padding: 20px;
+   margin-left: 15%;
+
+}
 
 
 /**********PORTFOLIO AND ABOUT PAGES **********/
@@ -341,29 +351,43 @@ h1.title {
 
 .quote {
    float: left;
-   width: 150px;
-   height: 140px;
-   padding: 2%;
-   /*border-radius: 200px;*/
+   width: 26%;
    margin-left: 6%;
-   border: 23px solid #000;
+/*   border-bottom: 23px solid #000;
+   border-top: 23px solid #000;
+   border-radius: 150px;
+   padding: 2%;
+*/
 }
 
 .quote p {
-   font-size: 1.3em;
+   font-size: 1.7em;
    font-weight: 600;
    text-align: center;
    line-height: 1.4em;
    color: #721691;
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
-   padding: 4%;
-   /* margin-top: 6px;
+ /*   padding: 4%;
+   margin-top: 6px;
   background-color: #000;
    margin: 0 auto;
    margin-right: 13%;*/
-
 }
 
+.emp {
+   font-size: 1.8em;
+   font-weight: 600;
+}
+
+.tango {
+   color: #000;
+   font-size: 2.3em;
+   font-weight: 200;
+   /*font-style: italic;*/
+}
+
+.doodle {
+}
 .about {
    background-color: #16918B;
    color: #fff;
