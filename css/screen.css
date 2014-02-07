@@ -25,75 +25,112 @@ body p, body h1, body h2, body h3 {
    line-height: 5em;
 }
 
-/***** FONTS, TEXT *****/
+/********************    FONTS, TEXT     ********************/
+
+* {
+   font-size: 11pt;
+}
 
 h1, h2, h3, h4, hr {
    font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
    font-weight: 700;
+   color: #000;
 } 
 
 p, a, li, label {
-   font-family: Muli /** "Open Sans Condensed" **/, Arial, sans-serif;
-   font-size: .9em;
-   line-height: 1.3em;
+   font-family: Muli, Arial, sans-serif;
+   font-size: 1em;
+   line-height: 1.6em;
+   color: #000;
 }
 
 h1 {
-   font-size: 3em;
+   font-size: 6em;
 }
 
 h2 {
-   font-size: 1.7em;
+   font-size: 3.5em;
 }
 
 h3 {
-   font-size: 1.4em;
+   font-size: 2em;
 }
 
 h4 {
-   font-size: 1.1em;
+   font-size: 1.4em;
 }
 
 ul {
    list-style: none;
 }
 
-}a {
+a {
    text-decoration: none;
 }
 
-/***** HEADER *****/
+/***** HEADER & LOGO *****/
 
 #header {
-   margin: 2% auto;
+   margin: 40px auto;
 }
 
 #textlogo {
    font-family:  "Josefin Sans", Arial, sans-serif;
    font-weight: 700;
    color: #000;
-   margin: 2% 10%;
-   display: inline:
-   margin: 0 auto;
-   float: left;
-   width: 35%;
-}
-
-/*****  Navigation  *****/
-
-nav#main ul{
-   width: 40%;
-   margin-top: 20px;
-   float: left;
-}
-
-nav#main ul li {
    display: inline;
-   font-size: 1.1em;
-   float: right;
-   margin-right: 4%;
+  /* margin: 2% 10%;
+   margin: 0 auto;*/
+   float: left;
+   width: 100%;
+   text-align: center;
 }
 
+/***************       NAVIGATION       ***************/
+
+nav {
+   width: 100%;
+   position: relative;
+}
+
+nav.main ul{
+   padding: 0px;
+  /* margin: 20px auto;*/
+   text-align: center;
+}
+nav.main li {
+   display: inline;
+   width: 23%;
+   float: left;
+  /* margin-right: 8%;*/
+}
+
+nav a {
+   width: 200px;
+   text-align: center;
+   background: green;
+}
+
+/*
+a.nav-home, a.nav-about, 
+a.nav-work, a.nav-contact{
+   /*width: 20%;
+   min-width: 70px;
+   max-width: 220px;     
+   margin: 0 15px;
+   color: #721691;
+   font-weight: 600;
+}
+*/
+/*
+a.nav-contact{
+   padding-right: 0px;
+}
+nav#main li a:hover, nav#main li a:active  {
+   border-bottom: 5px solid grey;
+}
+*/
+/*
 nav#bottom ul {
    width: 100%;
    clear: both;
@@ -104,25 +141,7 @@ nav#bottom ul li {
    display: inline;
    font-size: 1em;
 }
-
-a.nav-home, a.nav-about, 
-a.nav-work, a.nav-contact{
-   width: 20%;
-   min-width: 70px;
-   max-width: 220px;     
-   margin: 0 15px;
-   color: #721691;
-   font-weight: 600;
-}
-
-a.nav-contact{
-   padding-right: 0px;
-}
-nav#main li a:hover, nav#main li a:active  {
-   border-bottom: 5px solid grey;
-}
-
-
+*/
 
 /***** WRAPPER *****/
 
@@ -411,7 +430,7 @@ h1.title {
 }
 
 .block-about p, .block-about h3 {
-   line-height: 1.5em;
+  /* line-height: 1.5em;*/
    margin-bottom: .8em;
 }
 
