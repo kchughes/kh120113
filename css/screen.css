@@ -40,24 +40,61 @@ h1, h2, h3, h4, hr {
 p, a, li, label {
    font-family: Muli, Arial, sans-serif;
    font-size: 1em;
+   font-weight: 300;
    line-height: 1.6em;
    color: #000;
+
 }
 
 h1 {
+   font-size: 4em;
+}
+
+@media screen and (min-width: 640px) {
+h1 {
    font-size: 6em;
+}
 }
 
 h2 {
-   font-size: 3.5em;
-}
-
-h3 {
    font-size: 2em;
 }
 
+@media screen and (min-width: 640px) {
+h2 {
+   font-size: 2.8em;
+}
+}
+
+h3 {
+   font-size: 1.6em;
+}
+
+@media screen and (min-width: 640px) {
+h3 {
+   font-size: 2em;
+}
+}
+
+h4 {
+   font-size: 1.2em;
+}
+
+@media screen and (min-width: 640px) {
 h4 {
    font-size: 1.4em;
+}
+}
+
+h3, h4 {
+   margin-bottom: 5px;
+}
+h3+p, h4+p+p {
+   padding-bottom: 18px;
+}
+
+h4+p {
+   padding-bottom: 9px;
 }
 
 ul {
@@ -108,7 +145,6 @@ nav.main li {
 nav a {
    width: 200px;
    text-align: center;
-   background: green;
 }
 
 /*
@@ -148,8 +184,7 @@ nav#bottom ul li {
 #wrapper {
    clear: both;
    padding-top: 80px;
-   margin-bottom: 200px;
-
+   /*margin-bottom: 200px;*/
 }
 
 
@@ -337,55 +372,57 @@ h1.designer {
 }
 
 
-/**********PORTFOLIO AND ABOUT PAGES **********/
+
+
+
+
+
+/**********PORTFOLIO/WORK & ABOUT PAGES **********/
 
 h1.title {
-   margin-left: 10%;
+   margin-left: 8%;
    text-transform: uppercase;
    margin-bottom: 0px;
 }
 
-.block-title {
-   width: 43%;
-   float: left;
-   height: 100%;
-   margin-top: 0px;
+@media screen and (min-width: 640px) {
+h1.title {
 }
-.block-title h2 {
-   font-weight: 600;
-   font-size: 1.7em;
+}
+
+
+.block-title {
+   width: 100%;
+   float: left;
 }
 
 .block-title, .block-about, #block-projects,
-#block-misc {
-   padding: 30px 10%;
+#block-misc{
+   padding: 30px 8%;
 }
 
 .block-title p {
-   line-height: 1.6em;
    font-size: 1.3em;
    font-family: "Open Sans Condensed", Arial, sans-serif;
-   font-weight: 300;
+   margin-right: 11%;
 }
 
 .quote {
    float: left;
-   width: 26%;
-   margin-left: 6%;
-/*   border-bottom: 23px solid #000;
-   border-top: 23px solid #000;
-   border-radius: 150px;
-   padding: 2%;
-*/
+   width: 100%;
+   margin: 30px auto 10px;
+   padding-left: 7%;
+   /*padding: 2%;*/
 }
 
 .quote p {
-   font-size: 1.7em;
    font-weight: 600;
    text-align: center;
-   line-height: 1.4em;
-   color: #721691;
-   font-family: "Open Sans Condensed"/*"Noto Sans", "Amaranth"**/, Arial, sans-serif;
+    line-height: 1.7em;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+   font-size: 1.8em;
+   margin-right: 13%;
+
  /*   padding: 4%;
    margin-top: 6px;
   background-color: #000;
@@ -399,7 +436,6 @@ h1.title {
 }
 
 .tango {
-   color: #000;
    font-size: 2.3em;
    font-weight: 200;
    /*font-style: italic;*/
@@ -407,40 +443,49 @@ h1.title {
 
 .doodle {
 }
+
+.about, .work {
+   border-top: 30px solid #000;
+}
+
 .about {
    background-color: #16918B;
-   color: #fff;
-   border-top: 30px solid #000;
-
 }
 
 .work {
    background-color: #721691;
-   border-top: 30px solid #000;
-   color: #fff;
 }
 
-.work+.quote p{
+.work+.quote p {
    color: #16918B;
 }
 
+.about+.quote p  {
+   color: #721691;
+}
+/*
 .block-about, #block-projects {
    background-color: #fff;
    margin-top: 20px;
 }
 
 .block-about p, .block-about h3 {
-  /* line-height: 1.5em;*/
+  /* line-height: 1.5em;
    margin-bottom: .8em;
 }
-
+*/
+/*
 #block-misc, #block-design {
    padding-top: 50px;
+}*/
+
+
+#block-misc ul, #block-misc h3 {
+   margin-bottom: .7em;
 }
 
-#block-misc ul {
-   font-size: .85em;
-   margin-bottom: .8em;
+#block-misc h4 {
+   text-transform: uppercase;
 }
 
 .box {
@@ -448,24 +493,29 @@ h1.title {
    margin-bottom: 20px;
 }
 
-.misc1 {
-}
-
-#block-misc li, #block-misc p {
-   line-height: 1.6em;
-}
-
-#block-misc h3 {
-   margin-bottom: .7em;;
-}
-#block-misc h4 {
-   font-size: 1em;
-   margin-bottom: 0;
-   padding-bottom: 1px;
+#block-misc ul{
+   padding-left: 16px;
 }
 
 
+.big {
 
+}
+
+.var1 {
+   font-weight: 600;
+   font-size: 1.3em;
+   font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+
+.var2 {
+   font-weight: 600;
+   font-size: 1.2em;
+   font-family: "Open Sans Condensed", Arial, sans-serif;
+
+}
+
+/*
 @media screen and (min-width: 768px) {
 #block-misc, .block-about, 
 #block-projects, #block-design {
@@ -515,39 +565,52 @@ h1.title {
    margin: 40px 10%;
 }
 }*/
-
+/*
 @media screen and (min-width: 768px) {
 #block-projects {
    width: 50%;
    padding-right: 4%;
 }
 }
-
-#block-misc ul{
-   padding-left: 16px;
-}
-
 #block-design ul{
    padding-left: 16px;
 }
+*/
 
+
+.circ-container {
+   display: list-item;
+   float: left;
+   width: 100%;
+   margin-bottom: 20px;
+}
 .circle {
    background-color: #000;
-   color: #fff;
-   border-radius: 100px;
-   width: 100px;
-   height: 100px;
-   float: left;
-   margin: 0px 25px;
+   /*opacity: .6;*/
+   border-radius: 50%;
+   width: 230px;
+   height: 230px;
+   /*float: left;*/
+   margin: 20px auto;
 }
 
+.circle:hover {
+ /*  opacity: 1.0;*/
+}
+
+.circle+.second, .circle+.fourth {
+   display:none;
+}
+/*
 .circle p {
    text-align: center;
    padding: 31px;
+   color: #fff;
 }
+*/
 
 /***** SERVICES *****/
-
+/*
 #block-services {
    margin: 0px 8% 15px 8%;
    text-align: center;
@@ -579,14 +642,14 @@ h1.title {
    /*width: 80%;*/
 }
 }
-
+/*
 @media screen and (min-width: 1024px){
 #block-services {
    margin: 0px 2% 15px 4%;
    /*width: 90%;*/
 }
 }
-
+/*
 @media screen and (min-width: 1200px){
 #block-services {
    margin: 0px 2% 15px 9%;
@@ -612,39 +675,90 @@ h1.title {
 }
 }
 
+*/
 
 
-/***** FOOTER *****/
+
+/********************      FOOTER       ********************/
 
 div#footer {
    overflow: hidden;
    min-width: 300px;
    width: 100%;
-   clear: both;
+
+  /* clear: both;
    padding-bottom: 0px;
    margin: 0px;
-   padding-top: 100px;
-   }
+   padding-top: 100px;*/
+}
 
+#contact {
+   padding: 30px 8%;
+   border-top: 30px solid #16918B;
+}
+
+#site h3 {
+   padding-top: 20px;
+}
+
+#site {
+   background-color: #000;
+   width: 100%;
+   padding: 30px 8%;
+   border-top: 10px solid #16918B;
+   padding-bottom: 50px;
+
+/*   border-right: 60px solid #16918B;
+   width: 56%;
+}
+*/
+}
+
+#site li, #site h4, #site h3, #site p {
+   color: #fff;
+   padding-right: 11%;
+
+}
+
+.copy {
+   clear: both;
+   float: right;
+   margin-right:  8%;
+
+}
+
+.copy p {
+   padding-top: 100px;
+   padding-right: 11%;
+   float: right;
+   text-align: right;
+}
+/*
+
+#site li{
+   padding-left: 16px;
+   line-height: 1.7em;
+   font-size: .7em;
+}
+*/
 hr {
    margin: 20px 0px;
    border-color: #721691;
 }
-
+/*
 #contact,  #site {
    padding: 25px 25px;
    float: left;
    height: 100%;
 }
 
+/*
 #contact {
    background-color: #fff;
    border-left: 60px solid #721691;
    width: 22%;
 
 }
-
-
 /*
 @media screen and (min-width: 768px) {
 #contact, #quote {
@@ -679,6 +793,7 @@ hr {
    font-weight: 300;
 
 }**/
+/*
 #contact h3,  #site h3, #repeat h3{
    font-size: 1.4em;
    margin-bottom: 5px;
@@ -703,8 +818,6 @@ hr {
    color: #fff;
    border-right: 60px solid #16918B; 
    width: 56%;
-
-
 }
 #site p {
    font-size: .9em;
@@ -751,11 +864,12 @@ img.linked {
 }
 }
 */
+/*
 .copy {
-   float: right;
-   margin-right: 10%;
+   float: left;
+  /*  margin-right: 10%;
    color: #fff;
-   font-weight: 300;
+  font-weight: 300;*/
 }
 /***** Tools *****/
 
