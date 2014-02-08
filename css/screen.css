@@ -25,7 +25,9 @@ body p, body h1, body h2, body h3 {
    line-height: 5em;
 }
 
-/********************    FONTS, TEXT     ********************/
+/****************************************     
+               FONTS, TEXT 
+*****************************************/
 
 * {
    font-size: 11pt;
@@ -43,7 +45,6 @@ p, a, li, label {
    font-weight: 300;
    line-height: 1.6em;
    color: #000;
-
 }
 
 h1 {
@@ -105,7 +106,9 @@ a {
    text-decoration: none;
 }
 
-/***** HEADER & LOGO *****/
+/****************************************     
+               HEADER & LOGO  
+*****************************************/
 
 #header {
    margin: 40px auto;
@@ -123,7 +126,9 @@ a {
    text-align: center;
 }
 
-/***************       NAVIGATION       ***************/
+/****************************************     
+               NAVIGATION  
+*****************************************/
 
 nav {
    width: 100%;
@@ -179,7 +184,9 @@ nav#bottom ul li {
 }
 */
 
-/***** WRAPPER *****/
+/****************************************     
+               WRAPPER  
+*****************************************/
 
 #wrapper {
    clear: both;
@@ -188,7 +195,9 @@ nav#bottom ul li {
 }
 
 
-/** HOME PAGE ONLY **/
+/****************************************     
+               HOME PAGE
+*****************************************/
 #block-index {
    padding: 60px 10px 0px 10px;
    margin: 0 auto;
@@ -206,25 +215,7 @@ nav#bottom ul li {
 #block-index h1 {
    font-family: "Open Sans Condensed", Arial, sans-serif;
 }
-/*
-@media screen and (min-width: 480px) {
-#block-index h1 {
-   font-size: 3.9em;
-}
-}*/
 
-/*
-.graphic, .info, .story {
-   font-weight: 300;
-}
-
-.info {
-   background-colore: grey;
-}
-
-.story {
-   background-colore: grey;
-}
 */
 h1.type{
    padding: 0px;
@@ -239,14 +230,6 @@ h1.type{
    border-left: 45px solid #000;
 
 }
-
-/*.graphic, .info, .story, .visual {
-   letter-spacing:  .17em;
-}
-
-.graphic, .info {
-   letter-spacing:  .2em;
-}*/
 @media screen and (min-width: 480px) {
 h1.type {
    line-height: 57px;
@@ -321,10 +304,8 @@ h1.designer {
    padding-top: 0px;
 }
 }
-
 #next {
    margin-top: 125px;
-
 }
 
 .block-log {
@@ -337,8 +318,6 @@ h1.designer {
   /* border-right: 25px solid #000;*/
    width: 45%; 
    float: left;
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -355,12 +334,10 @@ h1.designer {
    padding: 10px;
    color: #721691;
 }
-
 .latest {
    float: left;
    width: 30%;
 }
-
 .container {
    width: 200px;
    height: 200px;
@@ -368,16 +345,11 @@ h1.designer {
    background-color: #721691;
    padding: 20px;
    margin-left: 15%;
-
 }
 
-
-
-
-
-
-
-/**********PORTFOLIO/WORK & ABOUT PAGES **********/
+/****************************************     
+               UNIVERSAL - WORK & ABOUT PAGES  
+*****************************************/
 
 h1.title {
    margin-left: 8%;
@@ -389,8 +361,6 @@ h1.title {
 h1.title {
 }
 }
-
-
 .block-title {
    width: 100%;
    float: left;
@@ -414,7 +384,6 @@ h1.title {
    padding-left: 7%;
    /*padding: 2%;*/
 }
-
 .quote p {
    font-weight: 600;
    text-align: center;
@@ -422,64 +391,39 @@ h1.title {
     font-family: "Open Sans Condensed", Arial, sans-serif;
    font-size: 1.8em;
    margin-right: 13%;
-
- /*   padding: 4%;
-   margin-top: 6px;
-  background-color: #000;
-   margin: 0 auto;
-   margin-right: 13%;*/
 }
-
 .emp {
    font-size: 1.8em;
    font-weight: 600;
 }
-
 .tango {
    font-size: 2.3em;
    font-weight: 200;
    /*font-style: italic;*/
 }
-
 .doodle {
 }
 
 .about, .work {
    border-top: 30px solid #000;
 }
-
 .about {
    background-color: #16918B;
 }
-
+.about+.quote p  {
+   color: #721691;
+}
 .work {
    background-color: #721691;
 }
-
 .work+.quote p {
    color: #16918B;
 }
 
-.about+.quote p  {
-   color: #721691;
-}
-/*
-.block-about, #block-projects {
-   background-color: #fff;
-   margin-top: 20px;
-}
 
-.block-about p, .block-about h3 {
-  /* line-height: 1.5em;
-   margin-bottom: .8em;
-}
-*/
-/*
-#block-misc, #block-tools {
-   padding-top: 50px;
-}*/
-
-
+/****************************************     
+               MISCELLANEOUS FACTS - ABOUT PAGE  
+*****************************************/
 #block-misc ul, #block-misc h3 {
    margin-bottom: .7em;
 }
@@ -497,93 +441,31 @@ h1.title {
    padding-left: 16px;
 }
 
+/****************************************     
+               VARIABLE FONTS -ABOUT, WORK PAGE (QUOTE & MISC)     
+*****************************************/
 
 .big {
-
 }
-
 .var1 {
    font-weight: 600;
    font-size: 1.3em;
    font-family: "Open Sans Condensed", Arial, sans-serif;
 }
-
 .var2 {
    font-weight: 600;
    font-size: 1.2em;
    font-family: "Open Sans Condensed", Arial, sans-serif;
-
 }
 
+/****************************************     
+               PROJECTS -portBox css in portBox.css-     
+*****************************************/
 
-/*
-@media screen and (min-width: 768px) {
-#block-misc, .block-about, 
-#block-projects, #block-tools {
-   float: left;
-}
-}
-
-@media screen and (min-width: 768px) {
-.block-about {
-   width: 49%;
-   padding-right: 4%;
-}
-}
-@media screen and (min-width: 768px) {
-#block-misc {
-   width: 26%;
-   padding-left: 3%;
-   padding-right: 2%;
-   margin: 0px;
-   padding-bottom: 30px;
-}
-}
-
-#block-tools {
-   margin: 50px 6%;
-   padding: inherit 3% 30px 6%;   
-}
-
-@media screen and (min-width: 768px) {
-#block-tools {
-   width: 24%;
-   padding-left: 1%;
-   padding-right: 2%;
-   margin: 0px;
-}
-}
-
-
-/*@media screen and (min-width: 768px) {
-#block-tools {
-   margin: 40px 8%;
-}
-}
-
-@media screen and (min-width: 1024px) {
-#block-tools {
-   margin: 40px 10%;
-}
-}*/
-/*
-@media screen and (min-width: 768px) {
-#block-projects {
-   width: 50%;
-   padding-right: 4%;
-}
-}
-#block-tools ul{
-   padding-left: 16px;
-}
-*/
 #block-projects {
    float: left;
    width: 100%;
-/*   margin: 0 6%;*/
-
 }
-
 .window {
    background-color: #000;
   border-radius: 50%;
@@ -593,6 +475,10 @@ h1.title {
    margin: 4% 6%;
 }
 
+/****************************************     
+              CIRCLES - ABOUT PAGE    
+*****************************************/
+                  
 .circ-container {
    display: list-item;
    float: left;
@@ -605,14 +491,11 @@ h1.title {
    border-radius: 50%;
    width: 230px;
    height: 230px;
-   /*float: left;*/
    margin: 20px auto;
 }
-
 .circle:hover {
  /*  opacity: 1.0;*/
 }
-
 .circle+.second, .circle+.fourth {
    display:none;
 }
@@ -624,49 +507,40 @@ h1.title {
 }
 */
 
-/***** Tools *****/
-
+/****************************************     
+               TOOLS -WORK PAGE       
+*****************************************/
 
 #block-tools {
    margin-bottom: 30px;
    width: 100%;
 }
-
 #block-tools h3 {
    padding: 10px 8% 0px;
 }
-
  #block-tools ul {
    padding: 0px 8% 10px;
 }
-
 li.tool, li.use {
    display: inline-block;
    margin: 2px 0px;
    vertical-align: middle;
 }
-
 li.tool {
    padding: 5px 20px;
 }
-
 li.use {
    padding: 3px 20px;
 }
-
-
 li.adobe {
    background-color: #16918B;   
 }
-
 li.office {
    background-color: #721691;
 }
-
 li.apple {
    background-color: #8abbc4;
 }
-
 li.web {
    background-color: #16918B ;
 }
@@ -675,78 +549,9 @@ li.other {
    color: #fff;
 }
 
-
-/***** SERVICES *****/
-/*
-#block-services {
-   margin: 0px 8% 15px 8%;
-   text-align: center;
-   line-height: 150px;
-   background-color: #000;
-}
-
-@media screen and (min-width: 480px){
-#block-services {
-   margin: 0px 20% 15px 20%;
-}
-}
-
-@media screen and (min-width: 640px){
-#block-services {
-   margin: 0px 25% 15px 25%;
-}
-}
-
-@media screen and (min-width: 768px){
-#block-services {
-   margin: 0px 10% 15px 10%;
-}
-}
-
-@media screen and (min-width: 900px){
-#block-services {
-   margin: 0px 2% 15px 19%;
-   /*width: 80%;*/
-}
-}
-/*
-@media screen and (min-width: 1024px){
-#block-services {
-   margin: 0px 2% 15px 4%;
-   /*width: 90%;*/
-}
-}
-/*
-@media screen and (min-width: 1200px){
-#block-services {
-   margin: 0px 2% 15px 9%;
-}
-}
-
-.services {
-   margin-bottom: 30px;
-   float: left;
-   width: 80%;
-   max-width: 250px;
-}
-
-@media screen and (min-width: 768px){
-.services {
-   width: 39%;
-}
-}
-
-@media screen and (min-width: 1024px){
-.services {
-   width: 23%;
-}
-}
-
-*/
-
-
-
-/********************      FOOTER       ********************/
+/****************************************     
+               FOOTER       
+*****************************************/
 
 #footer {
    overflow: hidden;
@@ -754,302 +559,37 @@ li.other {
    width: 100%;
    clear: left;
    float: left;
-
-  /* clear: both;
-   padding-bottom: 0px;
-   margin: 0px;
-   padding-top: 100px;*/
 }
-
 #contact {
    padding: 30px 8%;
    border-top: 30px solid #16918B;
 }
-
 #site h3 {
    padding-top: 20px;
 }
-
 #site {
    background-color: #000;
    width: 100%;
    padding: 30px 8%;
    border-top: 10px solid #16918B;
    padding-bottom: 50px;
-
-/*   border-right: 60px solid #16918B;
-   width: 56%;
 }
-*/
-}
-
 #site li, #site h4, #site h3, #site p {
    color: #fff;
    padding-right: 11%;
-
 }
-
 .copy {
    clear: both;
    float: right;
    margin-right:  8%;
-
 }
-
 .copy p {
    padding-top: 100px;
    padding-right: 11%;
    float: right;
    text-align: right;
 }
-/*
-
-#site li{
-   padding-left: 16px;
-   line-height: 1.7em;
-   font-size: .7em;
-}
-*/
 hr {
    margin: 20px 0px;
    border-color: #721691;
 }
-/*
-#contact,  #site {
-   padding: 25px 25px;
-   float: left;
-   height: 100%;
-}
-
-/*
-#contact {
-   background-color: #fff;
-   border-left: 60px solid #721691;
-   width: 22%;
-
-}
-/*
-@media screen and (min-width: 768px) {
-#contact, #quote {
-   float: left;
-   width: 44%;
-   margin-top: 0px;
-}
-}
-@media screen and (min-width: 768px) {
-#site {
-   float: left;
-   width: 80%;
-   margin-top: 0px;
-}
-}
-
-@media screen and (min-width: 1024px) {
-#site {
-   width: 50%;
-   margin-top: 0px;
-}
-}
-
-@media screen and (min-width: 1024px) {
-#contact {
-   width: 25%;
-}
-}
-*/
-/**#contact h3{
-   font-size: 1.4em;
-   font-weight: 300;
-
-}**/
-/*
-#contact h3,  #site h3, #repeat h3{
-   font-size: 1.4em;
-   margin-bottom: 5px;
-
-}
-
-#contact h3, #contact h4 {
-   color: #000;
-   margin-left: 7%;
-
-}
-#contact h4 {
-   font-weight: 300;
-   font-size: 1.1em;
-}
-#contact a {
-   color: #000;
-}
-
-#site {
-   background-color: #000;
-   color: #fff;
-   border-right: 60px solid #16918B; 
-   width: 56%;
-}
-#site p {
-   font-size: .9em;
-   line-height: 1.6em;
-   margin: 5px auto;
-}
-
-#site li{
-   padding-left: 16px;
-   line-height: 1.7em;
-   font-size: .7em;
-}
-
-
-/*
-#contact img{
-   float: left;
-}
-
-img.email {
-   width: 40%;
-   max-width: 190px;
-}
-
-@media screen and (min-width: 1024px) {
-img.email {
-   width: 20%;
-}
-}
-
-@media screen and (min-width: 768px) {
-img.email {
-   width: 60%;
-}
-}
-img.linked {
-   width: 60%;
-   max-width: 240px;
-}
-
-@media screen and (min-width: 1024px) {
-img.linked {
-   width: 30%;
-}
-}
-*/
-/*
-.copy {
-   float: left;
-  /*  margin-right: 10%;
-   color: #fff;
-  font-weight: 300;*/
-}
-
-
-
-/*
-li.ten {
-   width: 100%;
-   max-width: 400px;
-}
-
-li.nine {
-   width: 90%;
-   max-width: 360px;
-   min-width: 100px;
-
-}
-li.eight {
-   width: 80%;
-   max-width: 32px;
-   min-width: 100px;
-
-}
-li.seven {
-   width: 70%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.six {
-   width: 60%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.five {
-   width: 50%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.four {
-   width: 40%;
-   max-width: 200px;
-   min-width: 100px;
-}
-*/
-/**
-.design {
-   width: 100%;
-}
-**/
-/**
-p.type {
-   font-size: 2.4em;
-   colore: #b08ac4;
-   float: left;
-   margin: 0px;
-   width: 10%;
-  /* position: absolute;
-   top: 31%;
-   left: 3%;
-   clear: both;
-   -webkit-transform: rotate(-90deg) /* Safari */ ; 
-   -moz-transform: rotate(-90deg) /* Firefox */ ;
-   -ms-transform: rotate(-90deg) /* IE */;
-   -o-transform: rotate(-90deg) /* Opera */; **/
-   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) /* Internet Explorer */;
-}
-**/
-/**
-li.ten {
-  opacity: 0.10;
-   -moz-opacity: 0.10;
-   colore: green;
-   text-transform: uppercase;   
-}
-**/
-/**
-li.nine {
-   width: 90%;
-   max-width: 360px;
-   min-width: 100px;
-
-}
-li.eight {
-   width: 80%;
-   max-width: 32px;
-   min-width: 100px;
-
-}
-li.seven {
-   width: 70%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.six {
-   width: 60%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.five {
-   width: 50%;
-   max-width: 200px;
-   min-width: 100px;
-
-}
-li.four {
-   width: 40%;
-   max-width: 200px;
-   min-width: 100px;
-}
-***/
