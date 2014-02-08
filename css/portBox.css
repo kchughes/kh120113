@@ -29,48 +29,46 @@ portBox CSS
 
 .portBox {
 	max-width:1280px;
+	min-width:200px;
 	position: absolute;
-	display:none;
+	display: none;
 	background: #ffffff;
 	z-index: 1001;
 	padding: 30px;
-	text-align:left;
+	/*text-align:left;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border-radius: 10px;
+	border-radius: 10px; */
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	min-width:200px;
-	font-family: 'Source Sans Pro', sans-serif;
+	-box-shadow: 0 0 10px rgba(0,0,0,.4); 
 	-webkit-box-sizing: border-box; 
 	-moz-box-sizing: border-box; 
 	box-sizing: border-box;
 }
 
 .close-portBox{
-		font-size: 20px;
-		line-height: .5;
+		font-size: 1.3em;
+		line-height: .6;
 		position: absolute;
-		top: -6px;
+		top: -5px;
 		right: -7px;
 		color: #fff !important;
 		text-shadow:none;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight:bold;
+		font-weight: 800;
 		cursor: pointer;
-		border-radius:50%;
-		padding:5px;
-		background-color:#5c5c5c;
-		overflow:visible;
-		border:2px solid #fff;
-		text-decoration:none;
+		border-radius: 50%;
+		padding: 5px;
+		background-color:#000;
+		overflow: visible;
+		border: 2px solid #fff;
+		text-decoration: none;
 }
 
 .close-portBox:hover{
-	color: #5c5c5c !important;
-	background-color:#fff;
-	border:2px solid #5c5c5c;	
+	/*color:   !important;
+	background-color: ;*/
+	border: 3px solid #16918B;
 }
 
 /*----------------------------------------
@@ -78,62 +76,53 @@ porBox Content CSS
 -----------------------------------------*/
 
 .project-pics{
-	width:70%;
-	float:left;	
+   width: 70%;
+   float:left;	
 }
 
-	.project-pics img{
-		width:100%;	
-	}
+.project-pics img{
+   width:100%;	
+}
 
 .project-info {
-	float: left;
-	width:30%;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box; 
-	padding:0 0 0 40px;
-	line-height:28px;
+   float: left;
+   width: 30%;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box; 
+   padding: 0 0 0 40px;
 }
 
-.project-info h3,
-.project-info h4,
-.project-info ul,
-.project-info p,
-.project-button{
+.project-info h3, .project-info h4, .project-info ul,
+.project-info p, .project-button{
 	margin:10px 0;
-	float:left;
-	width:100%;	
+	float: left;
+	width: 100%;	
 }
 
 .project-info h3{
-	font-size:28px;
-	font-weight:bold;
-	color:#030303;	
+	font-size: 28px;
+	font-weight: bold;
+	color: #000;	
 }
-
+/*
 .project-info p{
-	font-size:16px;
-	color:#030303;		
+	color: #000;		
 }
+*/
 
 .project-info h4{
-	font-size:18px;
-	color:#bfbfbf;
-	border-bottom: 1px solid #e3e3e3;
-	margin-top:20px;
-	letter-spacing:2px;	
+	/*border-bottom: 1px solid #e3e3e3;*/
+	margin-top: 20px;
 }
 
 .project-info ul{
-	list-style:none;
-	padding:0;
-	color:#000;
+	list-style: none;
+	padding: 0;
 }
 
 .project-info ul li{
 	margin-bottom:10px;
-	font-size:16px;
 }
 
 .project-button{
@@ -180,11 +169,11 @@ porBox Content CSS
 		margin-top:40px;
 	}
 }
-
+/*
 @media only screen and (max-width: 420px){
 	
 	.project-info{
-		text-align:center;
+		text-align:center; 
 		margin-top:0;
 	}
 	
@@ -193,4 +182,4 @@ porBox Content CSS
 		line-height:30px;
 	}
 	
-}
+}*/
