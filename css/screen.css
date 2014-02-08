@@ -236,6 +236,7 @@ h2.type {
    margin-left: 3.5%;
    color: #fff;
 
+
 }
 
 
@@ -265,46 +266,7 @@ h1.type{
    border-left: 45px solid #000;
 
 }
-@media screen and (min-width: 480px) {
-h1.type {
-   line-height: 57px;
-   font-size: 4.1em;
-}
-}
 
-@media screen and (min-width: 640px) {
-h1.type {
-   line-height: 70px;
-   font-size: 5em;
-}
-}
-
-@media screen and (min-width: 768px) {
-h1.type {
-   line-height: 83px;
-   font-size: 5.5em;
-}
-}
-
-@media screen and (min-width: 1024px) {
-h1.type {
-   letter-spacing: 0.07em;
-   font-size: 4em;
-
-}
-}
-
-@media screen and (min-width: 1024px) {
-br {
-  display: none;
-}
-}
-/*
-h1.present {
-      letter-spacing:  .03em;
-}
-*/
-/*
 h1.designer {
    text-transform: uppercase;
    font-size: 3.7em;
@@ -313,32 +275,7 @@ h1.designer {
    background-color: #16918B;
 }
 /*
-@media screen and (min-width: 480px) {
-h1.designer {
-   font-size: 5.8em;
-}
-}
 
-@media screen and (min-width: 640px) {
-h1.designer {
-   font-size: 7.3em;
-}
-}
-
-@media screen and (min-width: 768px) {
-h1.designer {
-   font-size: 9em;
-   padding-bottom: 0px;
-}
-}
-
-@media screen and (min-width: 1024px) {
-h1.designer {
-   font-size: 12.8em;
-   margin-top: -50px;
-   padding-top: 0px;
-}
-}
 #next {
    margin-top: 125px;
 }
@@ -375,17 +312,6 @@ h1.designer {
    padding-bottom: 30px;
 }
 
-/*
-@media screen and (min-width: 768px) {
-.block-log p{
-   margin-top: -200px;
-}
-}
-
-.latest {
-   float: left;
-   width: 30%;
-}
 .container {
    width: 200px;
    height: 200px;
