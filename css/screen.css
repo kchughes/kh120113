@@ -113,21 +113,18 @@ a {
 #header {
    margin: 40px auto;
 }
-
 #logo {
    margin: 0 auto;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 8%;
 }
-
 #textlogo {
    font-family:  "Josefin Sans", Arial, sans-serif;
    font-weight: 700;
    color: #000;
    display: inline;
-  /* margin: 2% 10%;
-   margin: 0 auto;
-   float: left;
-   width: 100%;
-   text-align: center;
+   font-size: 3.5em;
 }
 
 /****************************************     
@@ -136,28 +133,41 @@ a {
 
 nav {
    width: 100%;
+   margin: 0 8% 0 11%;
  /*  position: relative;*/
 }
-/*
+
 nav.main ul{
-   padding: 0px;
-  /* margin: 20px auto;
-   text-align: center;
+/*   padding: 0px;
+   margin: 20px auto;
+   text-align: center;*/
 }
-/*
+
+nav.main ul {
+   width: 100%;
+}
+
 nav.main li {
    display: inline;
-   width: 23%;
+   width: 30%;
    float: left;
-  x margin-right: 8%;*/
 }
-/*
+
 nav a {
-   width: 200px;
-   text-align: center;
+   font-weight: 800;
+}
+nav a:hover {
+   border-bottom: 2px solid #721691;
+}
+nav a.sel-work {
+   border-bottom: 2px solid #721691;
+}
+nav a.sel-about {
+   border-bottom: 2px solid #16918B;
 }
 
 
+/*
 a.nav-home, a.nav-about, 
 a.nav-work, a.nav-contact{
    /*width: 20%;
@@ -168,14 +178,7 @@ a.nav-work, a.nav-contact{
    font-weight: 600;
 }
 */
-/*
-a.nav-contact{
-   padding-right: 0px;
-}
-nav#main li a:hover, nav#main li a:active  {
-   border-bottom: 5px solid grey;
-}
-*/
+
 /*
 nav#bottom ul {
    width: 100%;
