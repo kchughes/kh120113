@@ -397,7 +397,7 @@ h1.title {
 }
 
 .block-title, .block-about, #block-projects,
-#block-misc{
+#block-misc {
    padding: 30px 8%;
 }
 
@@ -475,7 +475,7 @@ h1.title {
 }
 */
 /*
-#block-misc, #block-design {
+#block-misc, #block-tools {
    padding-top: 50px;
 }*/
 
@@ -515,10 +515,11 @@ h1.title {
 
 }
 
+
 /*
 @media screen and (min-width: 768px) {
 #block-misc, .block-about, 
-#block-projects, #block-design {
+#block-projects, #block-tools {
    float: left;
 }
 }
@@ -539,13 +540,13 @@ h1.title {
 }
 }
 
-#block-design {
+#block-tools {
    margin: 50px 6%;
    padding: inherit 3% 30px 6%;   
 }
 
 @media screen and (min-width: 768px) {
-#block-design {
+#block-tools {
    width: 24%;
    padding-left: 1%;
    padding-right: 2%;
@@ -555,13 +556,13 @@ h1.title {
 
 
 /*@media screen and (min-width: 768px) {
-#block-design {
+#block-tools {
    margin: 40px 8%;
 }
 }
 
 @media screen and (min-width: 1024px) {
-#block-design {
+#block-tools {
    margin: 40px 10%;
 }
 }*/
@@ -572,11 +573,25 @@ h1.title {
    padding-right: 4%;
 }
 }
-#block-design ul{
+#block-tools ul{
    padding-left: 16px;
 }
 */
+#block-projects {
+   float: left;
+   width: 100%;
+/*   margin: 0 6%;*/
 
+}
+
+.window {
+   background-color: #000;
+  border-radius: 50%;
+   width: 230px;
+   height: 230px;
+   float: left;
+   margin: 4% 6%;
+}
 
 .circ-container {
    display: list-item;
@@ -608,6 +623,58 @@ h1.title {
    color: #fff;
 }
 */
+
+/***** Tools *****/
+
+
+#block-tools {
+   margin-bottom: 30px;
+   width: 100%;
+}
+
+#block-tools h3 {
+   padding: 10px 8% 0px;
+}
+
+ #block-tools ul {
+   padding: 0px 8% 10px;
+}
+
+li.tool, li.use {
+   display: inline-block;
+   margin: 2px 0px;
+   vertical-align: middle;
+}
+
+li.tool {
+   padding: 5px 20px;
+}
+
+li.use {
+   padding: 3px 20px;
+}
+
+
+li.adobe {
+   background-color: #16918B;   
+}
+
+li.office {
+   background-color: #721691;
+}
+
+li.apple {
+   background-color: #8abbc4;
+}
+
+li.web {
+   background-color: #16918B ;
+}
+li.other {
+   background-color: #000;
+   color: #fff;
+}
+
 
 /***** SERVICES *****/
 /*
@@ -681,10 +748,12 @@ h1.title {
 
 /********************      FOOTER       ********************/
 
-div#footer {
+#footer {
    overflow: hidden;
    min-width: 300px;
    width: 100%;
+   clear: left;
+   float: left;
 
   /* clear: both;
    padding-bottom: 0px;
@@ -871,45 +940,7 @@ img.linked {
    color: #fff;
   font-weight: 300;*/
 }
-/***** Tools *****/
 
-ul.design {
-   line-height: .9em;
-}
-
-li.tool {
-   padding: 2px 5px;
-   display: inline-block;
-   margin: 2px 0px;
-   padding: 5px 20px;
-   vertical-align: middle;
-}
-li.adobe {
-   background-color: #16918B;   
-}
-
-li.office {
-   background-color: #721691;
-}
-
-li.apple {
-   background-color: #8abbc4;
-}
-
-li.web {
-   background-color: #16918B ;
-}
-li.other {
-   background-color: #000;
-   color: #fff;
-}
-
-li.use {
-   display: inline;
-   padding: 4px 12px;
-   margin: 6px 0px;
-   line-height: 2.1em;
-}
 
 
 /*
