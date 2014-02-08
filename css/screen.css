@@ -190,7 +190,7 @@ nav#bottom ul li {
 
 #wrapper {
    clear: both;
-   padding-top: 80px;
+   padding-top: 45px;
    /*margin-bottom: 200px;*/
 }
 
@@ -199,11 +199,48 @@ nav#bottom ul li {
                HOME PAGE
 *****************************************/
 #block-index {
-   padding: 60px 10px 0px 10px;
-   margin: 0 auto;
+ /*  padding: 60px 10px 0px 10px;
+   margin: 0 auto;*/
    min-width: 300px; 
-   width: 83%;
+   width: 100%;
 }
+
+#block-index h1, #block-index h2 {
+   padding: 0px 8%; 
+}
+
+ #block-index h2 {
+   font-weight: 300;
+   font-size: 2.9em;
+   letter-spacing: .48em;
+   text-align: center;
+   line-height: 1.2em;
+}
+/*
+.present {
+   font-size: 1.08em;
+   letter-spacing: .18em;
+}*/
+
+h1.designer {
+   text-transform: uppercase;
+   letter-spacing: .21em;
+   font-size: 3.5em;
+   background-color: #16918B;
+   margin-left: 3.5%;
+}
+
+h2.type {
+   background-color: #721691;
+   border-left: 30px solid #000;
+   margin-left: 3.5%;
+   color: #fff;
+
+}
+
+
+
+/*
 @media screen and (min-width: 1024px) {
 #block-index {
    width: 93%;
@@ -212,11 +249,9 @@ nav#bottom ul li {
    overflow: auto;
 }
 }
-#block-index h1 {
-   font-family: "Open Sans Condensed", Arial, sans-serif;
-}
 
 */
+/*
 h1.type{
    padding: 0px;
    line-height: 50px;
@@ -269,7 +304,7 @@ h1.present {
       letter-spacing:  .03em;
 }
 */
-
+/*
 h1.designer {
    text-transform: uppercase;
    font-size: 3.7em;
@@ -277,7 +312,7 @@ h1.designer {
    margin-top: -20px;
    background-color: #16918B;
 }
-
+/*
 @media screen and (min-width: 480px) {
 h1.designer {
    font-size: 5.8em;
@@ -307,33 +342,46 @@ h1.designer {
 #next {
    margin-top: 125px;
 }
-
+*/
+/*
+#block-next {
+   padding-bottom: 100px;
+}*/
 .block-log {
-  /* background-color: #721691;*/
-   padding: 25px 8%;
+  /* background-color: #721691;
+   padding: 25px 8%;*/
    margin-bottom: 25px;
    margin-right: 3%;
    clear: both;
    border-bottom: 30px solid #000;
-  /* border-right: 25px solid #000;*/
-   width: 45%; 
+   width: 100%; 
    float: left;
 }
+.block-log h3 {
+   margin: 4% 8%;
+   padding: 15px 10px;
+   color: #721691;
+   font-weight: 300;
+   letter-spacing: .06em;
+}
 
+.block-latest {
+      margin: 0  8%;
+}
+
+.container {
+   float: left;
+   width: 100%;
+   padding-bottom: 30px;
+}
+
+/*
 @media screen and (min-width: 768px) {
 .block-log p{
    margin-top: -200px;
 }
 }
-.block-log p {
-   margin: 0 auto;
-   line-height: 1.6em;
-   font-weight: 500;
-   font-size: 1.1em;
-   text-align: left;
-   padding: 10px;
-   color: #721691;
-}
+
 .latest {
    float: left;
    width: 30%;

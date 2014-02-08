@@ -5,7 +5,7 @@
 	<title>Khalila Hughes: Graphic & Information Designer, Presentation Specialist, Story Designer</title>
 
   	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
  	<meta name="author" content="Khalila Hughes">
  	<meta name="keywords" content="Khalila, Hughes, graphic design, graphic designer, story designer, storyteller, information designer, functional design, technical communication, design, creative, professional, content, information design">
 	
@@ -42,61 +42,84 @@
 <div id ="wrapper">
 
 <div id="block-index">
-   <h1 class="type"><span class="graphic"</span>graphic <span class="info">info </span></br><span class="present">presentation </span></br><span class="visual">visual <span class="story">story</span></h1>
+ <!--  <h2 class="type"><span class="graphic">graphic </span><span class="info">info </span><br /><span class="present">presentation </span><br /><span class="visual">visual </span><span class="story">story</span></h2> -->
+
+<h2 class="type">graphic info <!--<span class="present">presentation </span> -->visual story</h2>
    <h1 class="designer">Designer</h1>
-   </div> <!-- end block-index-->
 
-<div id="next">
+</div> <!-- end block-index-->
+
+<div id="block-next">
 <div class="block-log">
-   <p>I love telling stories. I love creating design. I enjoy every opportunity to merge my two loves into elegant, effective, and impactful experiences for print and digital media.   </p>
+   <h3>I love telling stories. I love creating design. I enjoy every opportunity to merge my two loves into elegant, effective, and impactful experiences for print and digital media.   </h3>
   <!-- <p>design aesthetics- mixing colors in interesting ways, and clean + unusual textures and gradients, </p> -->
-</div>
+</div>  <!-- end block-log-->
 
-<div class="latest">
+<div class="block-latest">
    <h3>Latest Project</h3>
-   <div class="container">
+
+<div class="container">
 <!-- portBox Handler -->
-<a href="#" data-display="myBox">My Box of Stuff</a>
+<a href="#" data-display="myProject" data-animation="fade" data-animationspeed="200" data-closeBGclick="true"><div class="window"></div></a>
 
 <!-- portBox Content -->
-<div id="myBox" class="portBox">
+<div id="myProject" class="portBox">
+    <div class="project">
+    	<div class="project-pics"> 
+            <img src="media/img/portfolio/2011holidaycard.jpg" alt="2011 Holiday Card"/>   
+        </div> <!-- end project-pics-->
+        <div class="project-info">
+            <h2>My Awsome Project</h2>
+            
+            <p>Short description of the project or the work that went into finishing it.</p>
+            
+            <ul>
+                <li><h3>CLIENT</h3></li>
+                	<li>Dude McMan</li>
+                <li><h3>ROLE</h3></li>
+                	<li>Stuff, Stuff, More Stuff</li>
+                <li><h4>SKILLS</h4></li>
+                	<li>this, that, the other</li>
+            </ul>
+            <!-- <a href="#" class="project-button">Visit Site</a> -->
+        
+        </div><!--end project-info -->
+    </div><!-- end project -->
+</div><!-- end portBox -->
+</div> <!-- end container-->
+</div> <!-- end latest-->
 
-<!-- Your content here -->
-
-</div>
-</div>
-</div>
-</div>
+</div> <!-- end next-->
 
 </div> <!-- end wrapper -->
 
 <div id ="footer">
    <div id="contact">
       <h3>Get to Know Me</h3>
-         <h4><a href="about.html">Life, loves, and obsessions</a></h4>
-        <h4><a href="work.html">Designs, tools, and range</a></h4>
+         <h4><a href="about.html">Life, loves, and obsessions </a></h4>
+        <h4><a href="work.html">Portfolio and tools </a></h4>
    <hr>
       <h3>Get in Touch</h3>
-
       <h4><a href="mailto:khalilahughes+web@gmail.com">Email Me</a></h4>
-      <h4> <a href="https:/www.linkedin.com/in/khalilahughes" target="blank">    Find me on LinkedIn</a></h4>
+      <h4> <a href="https:/www.linkedin.com/in/khalilahughes" target="blank">Find me on LinkedIn</a></h4>
      
-   </div>
+   </div> <!-- end contact-->
 
-   <div id="site">
+   <div id="site"> 
       <h3>About This Site</h3>
-         <p>This is latest iteration of my website. Between the layout, colors, and fonts, it is a reflection of who I am now. Below are the site stats.</p>
          <ul>
-            <li><b>Inspiration:</b> 60's block patterns and geometric design</li>
-            <li><b>Colors:</b>  teal, magenta, black, white</li>
-            <li><b>Fonts:</b> (all sourced from Google fonts) </li>
-            <li><b>Technique and Languages:</b>  (Almost) Completely handcoded Mobile First, using HTML, CSS, and jQuery.</li>
+            <li><span class="big var2">Inspiration:</span> 1960's geometric block patterns</li>
+            <li><span class="big var2">Colors:</span>  teal, magenta, black, white</li>
+            <li><span class="big var2">Fonts:</span> (all sourced from Google fonts) </li>
+            <li><span class="big var2">Technique and Languages:</span>  (Almost) completely handcoded Mobile First, using HTML, CSS, and jQuery <a href="http://portbox.joeynavarro.com/">(Portbox)</a>.</li>
+      </ul>
 <!--To see a glimpse of who I was before, please click here. -->
-   <h3 class="copy">&copy;Khalila Hughes</h3>
+<br />
 
-   </div>
+ <p class="copy">&copy; Khalila Hughes</p>
 
-
+   </div> <!-- end site-->
 </div> <!-- end footer -->
 
 </body>
+</html>
