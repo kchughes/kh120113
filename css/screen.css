@@ -121,7 +121,7 @@ a {
 @media screen and (min-width: 768px) {
 #logo {
    text-align: center;
-   width: 39%;
+   width: 36%;
    float: left;
    margin-left: 2%;
 }
@@ -188,8 +188,9 @@ nav {
 
 @media screen and (min-width: 1024px) {
 nav {
-   width: 42%;
+   width: 40%;
    margin-left: 18%;
+   margin-right: 5%;
 }
 }
 
@@ -239,19 +240,21 @@ nav#bottom ul li {
    width: 100%;
 }
 
+
 #block-index h1, #block-index h2 {
    padding: 0px 8%; 
+   text-align: center;
+   margin-left: 3.5%;
+   overflow: visible;
 }
 
  #block-index h2 {
    font-weight: 300;
-   font-size: 2.9em;
-   letter-spacing: .48em;
-   text-align: center;
-   line-height: 1.1em;
+   font-size: 2.8em;
+   letter-spacing: .42em;
+   line-height: 1em;
    background-color: #721691;
    border-left: 30px solid #000;
-   margin-left: 3.5%;
    color: #fff;
 }
 /*
@@ -262,22 +265,81 @@ nav#bottom ul li {
 
  #block-index h1 {
    text-transform: uppercase;
-   letter-spacing: .21em;
-   font-size: 3.5em;
+   letter-spacing: .2em;
+   font-size: 3.1em;
    background-color: #16918B;
-   margin-left: 3.5%;
 }
 
-/*
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 480px) {
 #block-index {
-   width: 93%;
-   margin-left: 7%;
-   padding-bottom: 0px;
-   overflow: auto;
+   margin-left: 5%;
+}
+ #block-index h1 {
+   letter-spacing: .3em;
+   font-size: 3.6em;
+   text-align: left;
+   margin-top: -13px;
+
+}
+#block-index h2 {
+   font-size: 2.9em;
+   letter-spacing: .4em;
+   text-align: left;
 }
 }
 
+@media screen and (min-width: 530px) {
+ #block-index h1 {
+   letter-spacing: .3em;
+   font-size: 4.8em;
+}
+}
+
+@media screen and (min-width: 640px) {
+ #block-index h1 {
+   letter-spacing: .25em;
+   font-size: 5.3em;
+}
+ #block-index h2 {
+   font-size: 2.7em;
+   letter-spacing: .35em;
+}
+}
+
+@media screen and (min-width: 750px) {
+ #block-index h1 {
+   font-size: 6em;
+}
+}
+
+@media screen and (min-width: 875px) {
+#block-index {
+   margin-left: 14%;
+} 
+
+#block-index h1 {
+   font-size: 7.3em;
+   margin-top: -15px;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+#block-index {
+   margin-left: 18%;
+}
+
+ #block-index h1 {
+   font-size: 7.9em;
+}
+
+ #block-index h2 {
+   font-size: 2.6em;
+}
+#block-index h1, #block-index h2 {
+   padding: 0px 4%; 
+}
+}
 */
 /*
 h1.type{
