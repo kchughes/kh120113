@@ -51,30 +51,12 @@ h1 {
    font-size: 4em;
 }
 
-@media screen and (min-width: 640px) {
-h1 {
-   font-size: 6em;
-}
-}
-
 h2 {
    font-size: 2em;
-}
-
-@media screen and (min-width: 640px) {
-h2 {
-   font-size: 2.8em;
-}
 }
 
 h3 {
    font-size: 1.6em;
-}
-
-@media screen and (min-width: 640px) {
-h3 {
-   font-size: 2em;
-}
 }
 
 h4 {
@@ -82,6 +64,15 @@ h4 {
 }
 
 @media screen and (min-width: 640px) {
+h1 {
+   font-size: 6em;
+}
+h2 {
+   font-size: 2.8em;
+}
+h3 {
+   font-size: 2em;
+}
 h4 {
    font-size: 1.4em;
 }
@@ -127,6 +118,20 @@ a {
    font-size: 3.5em;
 }
 
+@media screen and (min-width: 768px) {
+#logo {
+   text-align: center;
+   width: 39%;
+   float: left;
+   margin-left: 2%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#logo {
+   margin-left: 0;
+}
+}
 /****************************************     
                NAVIGATION  
 *****************************************/
@@ -136,23 +141,16 @@ nav {
    margin: 0 8% 0 11%;
  /*  position: relative;*/
 }
-
-nav.main ul{
-/*   padding: 0px;
-   margin: 20px auto;
-   text-align: center;*/
-}
-
 nav.main ul {
    width: 100%;
 }
-
 nav.main li {
    display: inline;
-   width: 30%;
+   width: 20%;
    float: left;
+   padding: 3px 10px;
+   margin: 0 auto;
 }
-
 nav a {
    font-weight: 800;
 }
@@ -164,6 +162,35 @@ nav a.sel-work {
 }
 nav a.sel-about {
    border-bottom: 2px solid #16918B;
+}
+
+@media screen and (min-width: 640px) {
+ nav.main li {
+   width: 25%;
+   padding: 3px 20px;
+   margin: 0 auto;
+   font-size: 1.1em;
+}
+}
+
+@media screen and (min-width: 768px) {
+nav {
+   width: 50%;
+   float: left;
+   margin: 0 1% 0 8%;
+}
+ nav.main li {
+   width: 25%;
+   padding: 3px 14px;
+   margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1024px) {
+nav {
+   width: 42%;
+   margin-left: 18%;
+}
 }
 
 
@@ -178,7 +205,6 @@ a.nav-work, a.nav-contact{
    font-weight: 600;
 }
 */
-
 /*
 nav#bottom ul {
    width: 100%;
@@ -241,7 +267,6 @@ nav#bottom ul li {
    background-color: #16918B;
    margin-left: 3.5%;
 }
-
 
 /*
 @media screen and (min-width: 1024px) {
